@@ -14,6 +14,7 @@ PYTHON_PACKAGES=(
 )
 
 NODES=(
+    #  Basinstallation
     "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
     "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
@@ -26,7 +27,10 @@ NODES=(
     "https://github.com/DonBaronFactory/ComfyUI-Cre8it-Nodes"
     "https://github.com/LykosAI/ComfyUI-Inference-Core-Nodes"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
-    #egna
+    #  Nya/test
+    "https://github.com/WASasquatch/was-node-suite-comfyui"
+    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+    #  Egna
     "https://github.com/tjorbogarden/my-useful-comfyui-custom-nodes.git"
 
 )
