@@ -31,7 +31,7 @@ NODES=(
     "https://github.com/tinyterra/ComfyUI_tinyterraNodes"
     "https://github.com/WASasquatch/was-node-suite-comfyui"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
-    "https://github.com/kijai/ComfyUI-moondream"
+    # verkar inte funka "https://github.com/kijai/ComfyUI-moondream"
     # CCSR Upscaler
     "https://github.com/kijai/ComfyUI-CCSR"
     #  Egna
@@ -54,6 +54,9 @@ CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/343830?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Samaritan 3D cartoon
     "https://civitai.com/api/download/models/144566?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+
+    # SUPIR upscale model
+    "https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
     
     #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
