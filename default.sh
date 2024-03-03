@@ -28,8 +28,12 @@ NODES=(
     "https://github.com/LykosAI/ComfyUI-Inference-Core-Nodes"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     #  Nya/test
+    "https://github.com/tinyterra/ComfyUI_tinyterraNodes"
     "https://github.com/WASasquatch/was-node-suite-comfyui"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+    "https://github.com/kijai/ComfyUI-moondream"
+    # CCSR Upscaler
+    "https://github.com/kijai/ComfyUI-CCSR"
     #  Egna
     "https://github.com/tjorbogarden/my-useful-comfyui-custom-nodes.git"
 
