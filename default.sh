@@ -22,6 +22,9 @@ NODES=(
     "https://github.com/kijai/ComfyUI-KJNodes"
     "https://github.com/DonBaronFactory/ComfyUI-Cre8it-Nodes"
     "https://github.com/LykosAI/ComfyUI-Inference-Core-Nodes"
+    "https://github.com/tjorbogarden/comfy-vast-provisioning/blob/main/ksampler_sdxl.py"
+    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
+    "https://gist.github.com/lalunamel/6b582f865d2be881a501c574a136ce69#file-image_sizer_node-py"
     
 )
 
