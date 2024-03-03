@@ -28,7 +28,7 @@ NODES=(
     "https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/ksampler_sdxl.py"
     "https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/image_sizer_node.py"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
-    "https://gist.github.com/lalunamel/6b582f865d2be881a501c574a136ce69/raw/033f309ed1ba2f3b1026975b53a5bfa04cde5338/image_sizer_node.py"
+    #"https://gist.github.com/lalunamel/6b582f865d2be881a501c574a136ce69/raw/033f309ed1ba2f3b1026975b53a5bfa04cde5338/image_sizer_node.py"
     
 )
 
