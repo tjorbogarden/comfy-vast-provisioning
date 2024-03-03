@@ -25,13 +25,14 @@ NODES=(
     "https://github.com/chrisgoringe/cg-use-everywhere"
     "https://github.com/kijai/ComfyUI-KJNodes"
     "https://github.com/DonBaronFactory/ComfyUI-Cre8it-Nodes"
-    "https://github.com/LykosAI/ComfyUI-Inference-Core-Nodes"
+    # verkar inte funka "https://github.com/LykosAI/ComfyUI-Inference-Core-Nodes"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     #  Nya/test
     "https://github.com/tinyterra/ComfyUI_tinyterraNodes"
     "https://github.com/WASasquatch/was-node-suite-comfyui"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
     # verkar inte funka "https://github.com/kijai/ComfyUI-moondream"
+    "https://github.com/chrisgoringe/cg-training-tools" 
     # CCSR Upscaler
     "https://github.com/kijai/ComfyUI-CCSR"
     #  Egna
