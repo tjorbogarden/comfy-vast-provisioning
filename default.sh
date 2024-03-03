@@ -4,6 +4,9 @@
 
 # https://raw.githubusercontent.com/ai-dock/comfyui/main/config/provisioning/default.sh
 
+#Link to use in docker conf
+#https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/default.sh
+
 # Packages are installed after nodes so we can fix them...
 
 PYTHON_PACKAGES=(
