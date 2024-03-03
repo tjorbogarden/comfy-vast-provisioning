@@ -25,11 +25,10 @@ NODES=(
     "https://github.com/kijai/ComfyUI-KJNodes"
     "https://github.com/DonBaronFactory/ComfyUI-Cre8it-Nodes"
     "https://github.com/LykosAI/ComfyUI-Inference-Core-Nodes"
-    "https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/ksampler_sdxl.py"
-    "https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/image_sizer_node.py"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
-    #"https://gist.github.com/lalunamel/6b582f865d2be881a501c574a136ce69/raw/033f309ed1ba2f3b1026975b53a5bfa04cde5338/image_sizer_node.py"
-    
+    #egna
+    "https://github.com/tjorbogarden/my-useful-comfyui-custom-nodes.git"
+
 )
 
 CHECKPOINT_MODELS=(
