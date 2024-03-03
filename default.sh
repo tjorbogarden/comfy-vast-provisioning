@@ -26,15 +26,20 @@ NODES=(
 )
 
 CHECKPOINT_MODELS=(
-    #Juggernaut XL v9 + Lightning
+    #  Juggernaut XL v9 + Lightning
     "https://civitai.com/api/download/models/357609?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    Niji
+    #  Niji
     "https://civitai.com/api/download/models/155870?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    ZavyChromaXL
+    #  ZavyChromaXL
     "https://civitai.com/api/download/models/320428?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    
-    
-
+    #  Copax Timelsess
+    "https://civitai.com/api/download/models/344540?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #  Starlight
+    "https://civitai.com/api/download/models/182077?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #  Nightvision
+    "https://civitai.com/api/download/models/343830?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #  Samaritan 3D cartoon
+    "https://civitai.com/api/download/models/144566?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     
     #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
@@ -45,7 +50,30 @@ CHECKPOINT_MODELS=(
 LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
     #Add Details (Detail Tweaker XL
-    https://civitai.com/api/download/models/135867
+    "https://civitai.com/api/download/models/135867?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #  Sexy
+    "https://civitai.com/api/download/models/186014?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #  Harness
+    "https://civitai.com/api/download/models/216424?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #  Pinups style Art Frahm
+    "https://civitai.com/api/download/models/202646?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    # Woman nude 
+    "https://civitai.com/api/download/models/363218?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #  Rembrandt Lighting
+    "https://civitai.com/api/download/models/315808?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #  Underwear 
+    "https://civitai.com/api/download/models/136277?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #  Flash Photo
+    "https://civitai.com/api/download/models/203379?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #  Low Key Lighting
+    "https://civitai.com/api/download/models/315777?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #  High Key Lighting 
+    "https://civitai.com/api/download/models/315742?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    # Chiaroscuro Lighting Contrasting Lighting
+    "https://civitai.com/api/download/models/315825?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #  Bad Quality
+    "https://civitai.com/api/download/models/311787?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    
 )
 
 VAE_MODELS=(
