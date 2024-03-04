@@ -31,6 +31,7 @@ NODES=(
     "https://github.com/tinyterra/ComfyUI_tinyterraNodes"
     "https://github.com/WASasquatch/was-node-suite-comfyui"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+    "https://github.com/kijai/ComfyUI-SUPIR.git"
     # verkar inte funka "https://github.com/kijai/ComfyUI-moondream"
     "https://github.com/chrisgoringe/cg-training-tools" 
     # CCSR Upscaler
