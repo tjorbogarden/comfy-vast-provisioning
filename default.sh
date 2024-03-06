@@ -43,7 +43,7 @@ NODES=(
 
 CHECKPOINT_MODELS=(
     #  Juggernaut XL v9 + RunDiffusionPhoto
-    #"https://civitai.com/api/download/models/348913?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    "https://civitai.com/api/download/models/348913?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Niji
     #"https://civitai.com/api/download/models/155870?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  ZavyChromaXL
