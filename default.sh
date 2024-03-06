@@ -25,17 +25,18 @@ NODES=(
     "https://github.com/chrisgoringe/cg-use-everywhere"
     "https://github.com/kijai/ComfyUI-KJNodes"
     "https://github.com/DonBaronFactory/ComfyUI-Cre8it-Nodes"
-    # verkar inte funka "https://github.com/LykosAI/ComfyUI-Inference-Core-Nodes"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     #  Nya/test
     "https://github.com/tinyterra/ComfyUI_tinyterraNodes"
     "https://github.com/WASasquatch/was-node-suite-comfyui"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
-    "https://github.com/kijai/ComfyUI-SUPIR.git"
-    # verkar inte funka "https://github.com/kijai/ComfyUI-moondream"
     "https://github.com/chrisgoringe/cg-training-tools" 
     # CCSR Upscaler
     "https://github.com/kijai/ComfyUI-CCSR"
+    # CCSR kräver modell: 
+    # SUPIR Upscaler
+    "https://github.com/kijai/ComfyUI-SUPIR.git"
+    
     #  Egna
     "https://github.com/tjorbogarden/my-useful-comfyui-custom-nodes.git"
 
@@ -59,6 +60,9 @@ CHECKPOINT_MODELS=(
 
     # SUPIR upscale model
     #"https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
+
+    #CCSR Upscale modell
+    #"https://huggingface.co/camenduru/CCSR/resolve/main/real-world_ccsr.ckpt"
     
     #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
