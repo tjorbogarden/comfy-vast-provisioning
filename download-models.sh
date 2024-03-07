@@ -37,5 +37,5 @@ urls=(
 
 # Loop through the URLs and download each one
 for url in "${urls[@]}"; do
-    wget -P "$DOWNLOAD_DIR" "$url"
+    wget -P "$DOWNLOAD_DIR" "$url" --content-disposition
 done
