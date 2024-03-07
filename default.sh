@@ -140,7 +140,7 @@ EMBEDDINGS=(
     "https://civitai.com/api/download/models/254195?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 WORKFLOWS=(
-    "https://civitai.com/api/download/models/258279?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    "https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/workflow-vast.json"
 )
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
