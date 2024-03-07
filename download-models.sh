@@ -3,7 +3,7 @@
 # Run the script by typing ./download-models.sh in the right directory
 
 # Directory where files will be downloaded
-DOWNLOAD_DIR="/path/to/download/directory"
+DOWNLOAD_DIR="/opt/ComfyUI/models/checkpoints/"
 
 # Create the download directory if it doesn't exist
 mkdir -p "$DOWNLOAD_DIR"
