@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+# Link to download script: https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/download-models.sh
 # Run the script by typing ./download-models.sh in the right directory
 
 # Directory where files will be downloaded
