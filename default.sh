@@ -31,6 +31,7 @@ NODES=(
     "https://github.com/WASasquatch/was-node-suite-comfyui"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
     "https://github.com/chrisgoringe/cg-training-tools" 
+    "https://github.com/pythongosssss/ComfyUI-WD14-Tagger.git"
     # CCSR Upscaler
     "https://github.com/kijai/ComfyUI-CCSR"
     # CCSR kräver modell: 
