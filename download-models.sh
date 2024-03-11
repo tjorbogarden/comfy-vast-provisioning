@@ -3,7 +3,7 @@
 
 # Link to download script: https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/download-models.sh
 # 1. Make script executable: chmod +x download-models.sh
-# Run the script by typing ./download-models.sh (in the right directory)
+# Run the script by typing bash ./download-models.sh (in the right directory)
 
 # Directory where files will be downloaded
 DOWNLOAD_DIR="/opt/ComfyUI/models/checkpoints/"
@@ -52,7 +52,7 @@ for url in "${urls[@]}"; do
 done
 
 # Directory where files will be downloaded
-DOWNLOAD_DIR="/opt/ComfyUI/models/lora/"
+DOWNLOAD_DIR="/opt/ComfyUI/models/loras/"
 
 # Create the download directory if it doesn't exist
 mkdir -p "$DOWNLOAD_DIR"
