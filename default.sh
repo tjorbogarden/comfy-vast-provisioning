@@ -70,9 +70,9 @@ CHECKPOINT_MODELS=(
     #"https://huggingface.co/camenduru/CCSR/resolve/main/real-world_ccsr.ckpt"
 
     #  Stable Cascade
-    "https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_a.safetensors"
-    "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors"
-    "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors"
+    #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_a.safetensors"
+    #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors"
+    #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors"
 )
 
 LORA_MODELS=(
