@@ -62,6 +62,8 @@ CHECKPOINT_MODELS=(
     #"https://civitai.com/api/download/models/290640?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Suzannes Mix
     "https://civitai.com/api/download/models/312314?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #  ICBINP XL
+    "https://civitai.com/api/download/models/313378?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 
     # SUPIR upscale model
     #"https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
