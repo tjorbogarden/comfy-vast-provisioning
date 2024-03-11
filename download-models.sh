@@ -16,21 +16,24 @@ urls=(
     #  Juggernaut XL v9 + RunDiffusionPhoto
     #"https://civitai.com/api/download/models/348913?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Niji
-    "https://civitai.com/api/download/models/155870?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/155870?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  ZavyChromaXL
-    "https://civitai.com/api/download/models/320428?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/320428?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Copax Timelsess
     #"https://civitai.com/api/download/models/344540?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Starlight
     #"https://civitai.com/api/download/models/182077?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Nightvision
-    "https://civitai.com/api/download/models/343830?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/343830?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Samaritan 3D cartoon
     #"https://civitai.com/api/download/models/144566?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     TelmendoXL - mer realistisk
-    "https://civitai.com/api/download/models/131960?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/131960?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Pony Diffusion V6
-    "https://civitai.com/api/download/models/290640?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/290640?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #  Suzannes Mix
+    "https://civitai.com/api/download/models/312314?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+
 
     # SUPIR upscale model
     #"https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
