@@ -173,7 +173,7 @@ function provisioning_start() {
         "${WORKSPACE}/storage/stable_diffusion/models/embeddings" \
         "${EMBEDDINGS[@]}"
     provisioning_get_models \
-        "${WORKSPACE}/opt/ComfyUI/pysssss-workflows" \
+        "${WORKSPACE}/ComfyUI/pysssss-workflows" \
         "${WORKFLOWS[@]}"
     provisioning_print_end
 }
