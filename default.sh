@@ -144,6 +144,7 @@ EMBEDDINGS=(
 )
 WORKFLOWS=(
     "https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/workflow-vast.json"
+    "https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/txt2img.json"
 )
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
