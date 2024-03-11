@@ -76,7 +76,6 @@ CHECKPOINT_MODELS=(
 )
 
 LORA_MODELS=(
-    #"https://civitai.com/api/download/models/16576"
     #Add Details (Detail Tweaker XL)
     "https://civitai.com/api/download/models/135867?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Sexy
@@ -103,6 +102,8 @@ LORA_MODELS=(
     #"https://civitai.com/api/download/models/315825?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Bad Quality
     #"https://civitai.com/api/download/models/311787?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #  Impossible Photos
+    #"https://civitai.com/api/download/models/343625?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     
 )
 
@@ -123,7 +124,14 @@ ESRGAN_MODELS=(
 )
 
 CONTROLNET_MODELS=(
-    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_canny-fp16.safetensors"
+    #  OpenPose 
+    "https://huggingface.co/thibaud/controlnet-openpose-sdxl-1.0/resolve/main/OpenPoseXL2.safetensors"
+    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-canny-rank128.safetensors"
+    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-depth-rank128.safetensors"
+    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-recolor-rank128.safetensors"
+    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-sketch-rank128-metadata.safetensors"
+    
+    
 )
 EMBEDDINGS=(
     "https://civitai.com/api/download/models/258279?token=ad415154d4ad70c87127eb1bbe7bc6b4"
