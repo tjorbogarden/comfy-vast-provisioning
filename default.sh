@@ -72,6 +72,9 @@ CHECKPOINT_MODELS=(
     #CCSR Upscale modell
     #"https://huggingface.co/camenduru/CCSR/resolve/main/real-world_ccsr.ckpt"
 
+    # BLIP Captioning
+    "https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_capfilt_large.pth"
+
     #  Stable Cascade
     #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_a.safetensors"
     #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors"
