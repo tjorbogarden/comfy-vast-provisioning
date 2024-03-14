@@ -96,6 +96,8 @@ urls=(
     "https://civitai.com/api/download/models/343625?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Perfect Hands
     "https://civitai.com/api/download/models/254267?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    # Tanlines
+    "https://civitai.com/api/download/models/282430?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Loop through the URLs and download each one
