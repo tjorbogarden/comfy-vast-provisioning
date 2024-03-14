@@ -14,7 +14,7 @@ mkdir -p "$DOWNLOAD_DIR"
 # List of URLs to download
 urls=(
     #  Juggernaut XL v9 + RunDiffusionPhoto
-    #"https://civitai.com/api/download/models/348913?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    "https://civitai.com/api/download/models/348913?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Niji
     #"https://civitai.com/api/download/models/155870?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  ZavyChromaXL
@@ -26,13 +26,17 @@ urls=(
     #  Nightvision
     #"https://civitai.com/api/download/models/343830?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Samaritan 3D cartoon
-    #"https://civitai.com/api/download/models/144566?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    "https://civitai.com/api/download/models/144566?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  TelmendoXL - mer realistisk
     #"https://civitai.com/api/download/models/131960?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Pony Diffusion V6
     #"https://civitai.com/api/download/models/290640?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Suzannes Mix
     #"https://civitai.com/api/download/models/312314?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #  Colossus Project XL
+    "https://civitai.com/api/download/models/355884?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    # AlbedoBase XL
+    "https://civitai.com/api/download/models/329420?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 
     # SUPIR upscale model
     "https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
@@ -40,10 +44,13 @@ urls=(
     #CCSR Upscale model
     "https://huggingface.co/camenduru/CCSR/resolve/main/real-world_ccsr.ckpt"
 
+    # BLIP Captioning
+    #"https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_capfilt_large.pth"
+
     #  Stable Cascade
-    "https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_a.safetensors"
-    "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors"
-    "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors"
+    #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_a.safetensors"
+    #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors"
+    #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors"
 )
 
 # Loop through the URLs and download each one
@@ -64,7 +71,7 @@ urls=(
     #  Sexy
     #"https://civitai.com/api/download/models/186014?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Silhouette - Sliders
-    #"https://civitai.com/api/download/models/262669?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    "https://civitai.com/api/download/models/262669?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Harness
     #"https://civitai.com/api/download/models/216424?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Pinups style Art Frahm
