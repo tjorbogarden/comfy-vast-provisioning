@@ -76,9 +76,6 @@ CHECKPOINT_MODELS=(
     #CCSR Upscale modell
     #"https://huggingface.co/camenduru/CCSR/resolve/main/real-world_ccsr.ckpt"
 
-    # BLIP Captioning
-    "https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_capfilt_large.pth"
-
     #  Stable Cascade
     #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_a.safetensors"
     #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors"
@@ -150,6 +147,11 @@ EMBEDDINGS=(
     "https://civitai.com/api/download/models/255516?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     "https://civitai.com/api/download/models/254195?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
+BLIP=(
+    # BLIP Captioning
+    "https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_capfilt_large.pth"
+)
+
 WORKFLOWS=(
     "https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/workflow-vast.json"
     "https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/txt2img.json"
@@ -182,6 +184,9 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/embeddings" \
         "${EMBEDDINGS[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/models/blip/checkpoints" \
+        "${BLIP[@]}"
     provisioning_get_models \
         "${WORKSPACE}/ComfyUI/pysssss-workflows" \
         "${WORKFLOWS[@]}"
