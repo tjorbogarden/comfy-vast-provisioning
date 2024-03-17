@@ -34,6 +34,7 @@ NODES=(
     "https://github.com/pythongosssss/ComfyUI-WD14-Tagger.git"
     #"https://github.com/sipherxyz/comfyui-art-venture.git" - verkar trasig
     "https://github.com/melMass/comfy_mtb.git"
+    "https://github.com/BlenderNeko/ComfyUI_Noise.git"
 
 
     
