@@ -33,6 +33,10 @@ NODES=(
     "https://github.com/chrisgoringe/cg-training-tools" 
     "https://github.com/pythongosssss/ComfyUI-WD14-Tagger.git"
     #"https://github.com/sipherxyz/comfyui-art-venture.git" - verkar trasig
+    "https://github.com/melMass/comfy_mtb.git"
+
+
+    
     # CCSR Upscaler
     "https://github.com/kijai/ComfyUI-CCSR"
     
