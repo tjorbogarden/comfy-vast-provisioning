@@ -35,7 +35,7 @@ NODES=(
     #"https://github.com/sipherxyz/comfyui-art-venture.git" - verkar trasig
     "https://github.com/melMass/comfy_mtb.git"
     "https://github.com/BlenderNeko/ComfyUI_Noise.git"
-
+    "https://github.com/gokayfem/ComfyUI_VLM_nodes.git" #moondream, joytag
 
     
     # CCSR Upscaler
