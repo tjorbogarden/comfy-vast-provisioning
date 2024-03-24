@@ -34,8 +34,10 @@ NODES=(
     #"https://github.com/pythongosssss/ComfyUI-WD14-Tagger.git"
     #"https://github.com/sipherxyz/comfyui-art-venture.git" - verkar trasig
     "https://github.com/melMass/comfy_mtb.git"
+    #denoiser
     "https://github.com/BlenderNeko/ComfyUI_Noise.git"
-    "https://github.com/gokayfem/ComfyUI_VLM_nodes.git" #moondream, joytag
+     #moondream, joytag
+    "https://github.com/gokayfem/ComfyUI_VLM_nodes.git"
     "https://github.com/palant/image-resize-comfyui.git"
 
     
@@ -117,7 +119,10 @@ LORA_MODELS=(
     #"https://civitai.com/api/download/models/311787?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Impossible Photos
     #"https://civitai.com/api/download/models/343625?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    
+    # Lingquivera
+    "https://civitai.com/api/download/models/281935?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #Mentixis
+    "https://civitai.com/api/download/models/315064?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 VAE_MODELS=(
