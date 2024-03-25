@@ -45,7 +45,7 @@ NODES=(
     "https://github.com/kijai/ComfyUI-CCSR"
     
     # SUPIR Upscaler
-    "https://github.com/kijai/ComfyUI-SUPIR.git"
+    # "https://github.com/kijai/ComfyUI-SUPIR.git"
     
     #  Egna
     "https://github.com/tjorbogarden/my-useful-comfyui-custom-nodes.git"
