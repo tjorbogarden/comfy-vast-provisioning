@@ -60,5 +60,5 @@ urls=(
 
 # Loop through the URLs and download each one
 for url in "${urls[@]}"; do
-    wget -P "$DOWNLOAD_DIR" "$url" --content-disposition
+    wget -P -qnc --content-disposition --show-progress "$DOWNLOAD_DIR" "$url"
 done
