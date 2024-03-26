@@ -160,10 +160,6 @@ EMBEDDINGS=(
     "https://civitai.com/api/download/models/255516?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     "https://civitai.com/api/download/models/254195?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
-#BLIP=(
-    # BLIP Captioning
-    #"https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_capfilt_large.pth"
-#)
 
 WORKFLOWS=(
     "https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/workflow-vast.json"
@@ -197,9 +193,6 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/embeddings" \
         "${EMBEDDINGS[@]}"
-#    provisioning_get_models \
-#        "${WORKSPACE}/storage/stable_diffusion/models/blip/checkpoints" \
-#        "${BLIP[@]}"
     provisioning_get_models \
         "${WORKSPACE}/ComfyUI/pysssss-workflows" \
         "${WORKFLOWS[@]}"
