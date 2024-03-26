@@ -41,6 +41,8 @@ urls=(
     "https://civitai.com/api/download/models/399962?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Ultraspice XL Turbo
     "https://civitai.com/api/download/models/372600?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    # Onlyfornsfw
+    https://civitai.com/api/download/models/363977
 
     # SUPIR upscale model
     #"https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
@@ -56,6 +58,6 @@ urls=(
 
 # Loop through the URLs and download each one
 for url in "${urls[@]}"; do
-    wget -P "$DOWNLOAD_DIR" "$url" --content-disposition
+    wget -P -qnc --content-disposition --show-progress "$DOWNLOAD_DIR" "$url"
 done
 
