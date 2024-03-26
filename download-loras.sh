@@ -54,6 +54,8 @@ urls=(
     "https://civitai.com/api/download/models/237604?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Double Vision
     "https://civitai.com/api/download/models/132469?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    # Dystopia
+    "https://civitai.com/api/download/models/332104?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Loop through the URLs and download each one
