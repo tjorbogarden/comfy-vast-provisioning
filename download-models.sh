@@ -30,7 +30,7 @@ urls=(
     #  TelmendoXL - mer realistisk
     #"https://civitai.com/api/download/models/131960?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Pony Diffusion V6
-    #"https://civitai.com/api/download/models/290640?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    "https://civitai.com/api/download/models/290640?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Suzannes Mix
     #"https://civitai.com/api/download/models/312314?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Colossus Project XL
@@ -42,13 +42,13 @@ urls=(
     # Ultraspice XL Turbo
     "https://civitai.com/api/download/models/372600?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Onlyfornsfw
-    https://civitai.com/api/download/models/363977
+    "https://civitai.com/api/download/models/363977?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 
     # SUPIR upscale model
-    #"https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
+    "https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
 
     #CCSR Upscale model
-    #"https://huggingface.co/camenduru/CCSR/resolve/main/real-world_ccsr.ckpt"
+    "https://huggingface.co/camenduru/CCSR/resolve/main/real-world_ccsr.ckpt"
 
     #  Stable Cascade
     #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_a.safetensors"
