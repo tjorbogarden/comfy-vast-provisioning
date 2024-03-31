@@ -39,6 +39,8 @@ NODES=(
      #moondream, joytag
     "https://github.com/gokayfem/ComfyUI_VLM_nodes.git"
     "https://github.com/palant/image-resize-comfyui.git"
+    #IPadapter
+    https://github.com/cubiq/ComfyUI_IPAdapter_plus.git
 
     
     # CCSR Upscaler
