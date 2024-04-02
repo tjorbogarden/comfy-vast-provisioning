@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-# Link to download script: wget https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/download-models.sh --content-disposition
+# Link to download script: wget https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/dl-models.sh --content-disposition
 # 1. Make script executable: chmod +x download-models.sh
 # Run the script by typing bash ./download-models.sh (in the right directory)
 
