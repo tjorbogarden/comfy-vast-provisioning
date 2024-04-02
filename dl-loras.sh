@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Link to download script: wget https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/download-loras.sh --content-disposition
+# Link to download script: wget https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/dl-loras.sh --content-disposition
 # Make script executable: chmod +x download-loras.sh
 # Run the script by typing bash ./download-loras.sh (in the right directory)
 
