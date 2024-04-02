@@ -60,6 +60,8 @@ urls=(
     "https://civitai.com/api/download/models/332071?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Film photography
     "https://civitai.com/api/download/models/180569?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    # The Line
+    "https://civitai.com/api/download/models/411062?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Loop through the URLs and download each one
