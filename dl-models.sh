@@ -16,7 +16,7 @@ urls=(
     #  Juggernaut XL v9 + RunDiffusionPhoto
     "https://civitai.com/api/download/models/348913?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Niji
-    #"https://civitai.com/api/download/models/155870?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    "https://civitai.com/api/download/models/155870?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  ZavyChromaXL
     "https://civitai.com/api/download/models/320428?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Copax Timelsess
@@ -48,7 +48,7 @@ urls=(
     "https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
 
     #CCSR Upscale model
-    "https://huggingface.co/camenduru/CCSR/resolve/main/real-world_ccsr.ckpt"
+    #"https://huggingface.co/camenduru/CCSR/resolve/main/real-world_ccsr.ckpt"
 
     #  Stable Cascade
     #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_a.safetensors"
