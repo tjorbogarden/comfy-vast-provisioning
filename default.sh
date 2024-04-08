@@ -43,6 +43,8 @@ NODES=(
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus.git"
     #ChatGPT
     "https://github.com/AppleBotzz/ComfyUI_LLMVISION.git"
+    # 3D pose editor
+    "https://github.com/hinablue/ComfyUI_3dPoseEditor.git"
     
 
     
