@@ -41,6 +41,9 @@ NODES=(
     "https://github.com/palant/image-resize-comfyui.git"
     #IPadapter
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus.git"
+    #ChatGPT
+    "https://github.com/AppleBotzz/ComfyUI_LLMVISION.git"
+    
 
     
     # CCSR Upscaler
