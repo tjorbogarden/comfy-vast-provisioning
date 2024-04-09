@@ -43,6 +43,8 @@ urls=(
     "https://civitai.com/api/download/models/372600?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Onlyfornsfw
     "https://civitai.com/api/download/models/363977?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    # Tamarin XL
+    "https://civitai.com/api/download/models/265836?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 
     # SUPIR upscale model
     "https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
