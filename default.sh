@@ -49,7 +49,7 @@ NODES=(
 
     
     # CCSR Upscaler
-    "https://github.com/kijai/ComfyUI-CCSR"
+    #"https://github.com/kijai/ComfyUI-CCSR"
     
     # SUPIR Upscaler
     # "https://github.com/kijai/ComfyUI-SUPIR.git"
@@ -137,7 +137,7 @@ LORA_MODELS=(
     # litho orwo dokumentpapier
     #"https://civitai.com/api/download/models/404096?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Lingquivera
-    "https://civitai.com/api/download/models/281935?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/281935?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Mentixis
     #"https://civitai.com/api/download/models/315064?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Long Exposure
@@ -147,7 +147,7 @@ LORA_MODELS=(
     # Dystopia
     #"https://civitai.com/api/download/models/332104?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Zavy Contrast
-    "https://civitai.com/api/download/models/332071?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/332071?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Film photography
     #"https://civitai.com/api/download/models/180569?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
@@ -162,9 +162,9 @@ VAE_MODELS=(
 )
 
 ESRGAN_MODELS=(
-    "https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
-    "https://huggingface.co/FacehugmanIII/4x_foolhardy_Remacri/resolve/main/4x_foolhardy_Remacri.pth"
-    "https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
+    #"https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
+    #"https://huggingface.co/FacehugmanIII/4x_foolhardy_Remacri/resolve/main/4x_foolhardy_Remacri.pth"
+    #"https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
 
 )
 
