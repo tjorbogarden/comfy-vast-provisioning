@@ -35,16 +35,16 @@ NODES=(
     #"https://github.com/sipherxyz/comfyui-art-venture.git" - verkar trasig
     "https://github.com/melMass/comfy_mtb.git"
     #denoiser
-    "https://github.com/BlenderNeko/ComfyUI_Noise.git"
+    "https://github.com/BlenderNeko/ComfyUI_Noise"
      #moondream, joytag
-    "https://github.com/gokayfem/ComfyUI_VLM_nodes.git"
-    "https://github.com/palant/image-resize-comfyui.git"
+    "https://github.com/gokayfem/ComfyUI_VLM_nodes"
+    "https://github.com/palant/image-resize-comfyui"
     #IPadapter
-    "https://github.com/cubiq/ComfyUI_IPAdapter_plus.git"
+    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
     #ChatGPT
-    "https://github.com/AppleBotzz/ComfyUI_LLMVISION.git"
+    "https://github.com/AppleBotzz/ComfyUI_LLMVISION"
     # 3D pose editor
-    "https://github.com/hinablue/ComfyUI_3dPoseEditor.git"
+    "https://github.com/hinablue/ComfyUI_3dPoseEditor"
     
 
     
