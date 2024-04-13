@@ -14,7 +14,7 @@ mkdir -p "$DOWNLOAD_DIR"
 # List of URLs to download
 urls=(
     #  Juggernaut XL v9 + RunDiffusionPhoto
-    "https://civitai.com/api/download/models/348913?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/348913?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Niji
     #"https://civitai.com/api/download/models/155870?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  ZavyChromaXL
@@ -30,7 +30,7 @@ urls=(
     #  TelmendoXL - mer realistisk
     #"https://civitai.com/api/download/models/131960?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Pony Diffusion V6
-    #"https://civitai.com/api/download/models/290640?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    "https://civitai.com/api/download/models/290640?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Suzannes Mix
     #"https://civitai.com/api/download/models/312314?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Colossus Project XL
@@ -38,7 +38,7 @@ urls=(
     # AlbedoBase XL
     #"https://civitai.com/api/download/models/329420?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # REMERetroRefinedXL
-    "https://civitai.com/api/download/models/399962?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/399962?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Ultraspice XL Turbo
     #"https://civitai.com/api/download/models/372600?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Onlyfornsfw
@@ -46,7 +46,7 @@ urls=(
     # Tamarin XL
     #"https://civitai.com/api/download/models/265836?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Mklan XXX
-    "https://civitai.com/api/download/models/429768?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/429768?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     
 
     # SUPIR upscale model
@@ -126,6 +126,8 @@ urls=(
     "https://civitai.com/api/download/models/180569?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # The Line
     "https://civitai.com/api/download/models/411062?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    # Cucoloris Lighting
+    "https://civitai.com/api/download/models/436271?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Loop through the URLs and download each one
