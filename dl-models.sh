@@ -80,7 +80,7 @@ urls=(
     #"https://civitai.com/api/download/models/135867?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Sexy
     "https://civitai.com/api/download/models/186014?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Silhouette - Sliders
+    #  Silhouette - Sliders - silhouette
     "https://civitai.com/api/download/models/262669?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Harness
     #"https://civitai.com/api/download/models/216424?token=ad415154d4ad70c87127eb1bbe7bc6b4"
@@ -94,13 +94,13 @@ urls=(
     #"https://civitai.com/api/download/models/136277?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Flash Photo
     #"https://civitai.com/api/download/models/203379?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Low Key Lighting
+    #  Low Key Lighting - Low-key lighting Style
     "https://civitai.com/api/download/models/315777?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  High Key Lighting 
+    #  High Key Lighting - High-key lighting Style, bright light
     "https://civitai.com/api/download/models/315742?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Chiaroscuro Lighting Contrasting Lighting
     "https://civitai.com/api/download/models/315825?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Bad Quality
+    #  Bad Quality - badquality, low quality
     "https://civitai.com/api/download/models/311787?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Impossible Photos
     #"https://civitai.com/api/download/models/343625?token=ad415154d4ad70c87127eb1bbe7bc6b4"
@@ -110,23 +110,23 @@ urls=(
     "https://civitai.com/api/download/models/282430?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # litho orwo dokumentpapier
     #"https://civitai.com/api/download/models/404096?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # Lingquivera
+    # Lingquivera - linquivera, liiv1
     #"https://civitai.com/api/download/models/281935?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Mentixis
     #"https://civitai.com/api/download/models/315064?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # Long Exposure
+    # Long Exposure - ral-exposure
     "https://civitai.com/api/download/models/237604?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Double Vision
     #"https://civitai.com/api/download/models/132469?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Dystopia
     #"https://civitai.com/api/download/models/332104?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # Zavy Contrast
+    # Zavy Contrast - dark, chiaroscuro, low-key
     "https://civitai.com/api/download/models/332071?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # Film photography
+    # Film photography - film photography style, light grain
     "https://civitai.com/api/download/models/180569?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # The Line
     "https://civitai.com/api/download/models/411062?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # Cucoloris Lighting
+    # Cucoloris Lighting - casting shadow style - cucoloris patterned illumination
     "https://civitai.com/api/download/models/436271?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
