@@ -14,7 +14,7 @@ mkdir -p "$DOWNLOAD_DIR"
 # List of URLs to download
 urls=(
     #  Juggernaut XL v9 + RunDiffusionPhoto
-    #"https://civitai.com/api/download/models/348913?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    "https://civitai.com/api/download/models/348913?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Niji
     #"https://civitai.com/api/download/models/155870?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  ZavyChromaXL
@@ -30,7 +30,7 @@ urls=(
     #  TelmendoXL - mer realistisk
     #"https://civitai.com/api/download/models/131960?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Pony Diffusion V6
-    "https://civitai.com/api/download/models/290640?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/290640?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Suzannes Mix
     #"https://civitai.com/api/download/models/312314?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Colossus Project XL
@@ -38,7 +38,7 @@ urls=(
     # AlbedoBase XL
     #"https://civitai.com/api/download/models/329420?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # REMERetroRefinedXL
-    #"https://civitai.com/api/download/models/399962?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    "https://civitai.com/api/download/models/399962?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Ultraspice XL Turbo
     #"https://civitai.com/api/download/models/372600?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Onlyfornsfw
@@ -53,7 +53,7 @@ urls=(
     "https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
 
     #CCSR Upscale model
-    "https://huggingface.co/camenduru/CCSR/resolve/main/real-world_ccsr.ckpt"
+    #"https://huggingface.co/camenduru/CCSR/resolve/main/real-world_ccsr.ckpt"
 
     #  Stable Cascade
     #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_a.safetensors"
