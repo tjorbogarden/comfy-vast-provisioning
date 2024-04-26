@@ -46,13 +46,8 @@ NODES=(
     # 3D pose editor
     "https://github.com/hinablue/ComfyUI_3dPoseEditor"
     
-
-    
-    # CCSR Upscaler
-    #"https://github.com/kijai/ComfyUI-CCSR"
-    
     # SUPIR Upscaler
-    # "https://github.com/kijai/ComfyUI-SUPIR.git"
+    "https://github.com/kijai/ComfyUI-SUPIR"
     
     #  Egna
     "https://github.com/tjorbogarden/my-useful-comfyui-custom-nodes.git"
@@ -62,33 +57,11 @@ NODES=(
 CHECKPOINT_MODELS=(
     #  Juggernaut XL v9 + RunDiffusionPhoto
     #"https://civitai.com/api/download/models/348913?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Niji
-    #"https://civitai.com/api/download/models/155870?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  ZavyChromaXL
-    #"https://civitai.com/api/download/models/320428?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Copax Timelsess
-    #"https://civitai.com/api/download/models/344540?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Starlight
-    #"https://civitai.com/api/download/models/182077?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Nightvision
-    #"https://civitai.com/api/download/models/343830?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Samaritan 3D cartoon
-    #"https://civitai.com/api/download/models/144566?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # Pony Diffusion V6
-    #"https://civitai.com/api/download/models/290640?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Suzannes Mix
-    #"https://civitai.com/api/download/models/312314?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  ICBINP XL
-    #"https://civitai.com/api/download/models/313378?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Colossus Project XL
-    #"https://civitai.com/api/download/models/355884?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # AlbedoBase XL
     "https://civitai.com/api/download/models/329420?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # REMERetroRefinedXL
-    #"https://civitai.com/api/download/models/399962?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 
     # SUPIR upscale model
-    #"https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
+    "https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
 
     #CCSR Upscale modell
     #"https://huggingface.co/camenduru/CCSR/resolve/main/real-world_ccsr.ckpt"
@@ -102,54 +75,6 @@ CHECKPOINT_MODELS=(
 LORA_MODELS=(
     #Add Details (Detail Tweaker XL)
     "https://civitai.com/api/download/models/135867?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Sexy
-    #"https://civitai.com/api/download/models/186014?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Silhouette - Sliders
-    #"https://civitai.com/api/download/models/262669?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Harness
-    #"https://civitai.com/api/download/models/216424?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Pinups style Art Frahm
-    #"https://civitai.com/api/download/models/202646?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # Woman nude 
-    #"https://civitai.com/api/download/models/363218?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Rembrandt Lighting
-    #"https://civitai.com/api/download/models/315808?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Underwear 
-    #"https://civitai.com/api/download/models/136277?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Flash Photo
-    #"https://civitai.com/api/download/models/203379?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Low Key Lighting
-    #"https://civitai.com/api/download/models/315777?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  High Key Lighting 
-    #"https://civitai.com/api/download/models/315742?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # Chiaroscuro Lighting Contrasting Lighting
-    #"https://civitai.com/api/download/models/315825?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Bad Quality
-    #"https://civitai.com/api/download/models/311787?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #  Impossible Photos
-    #"https://civitai.com/api/download/models/343625?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # Lingquivera
-    #"https://civitai.com/api/download/models/281935?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #Mentixis
-    #"https://civitai.com/api/download/models/315064?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # Tanlines
-    #"https://civitai.com/api/download/models/282430?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # litho orwo dokumentpapier
-    #"https://civitai.com/api/download/models/404096?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # Lingquivera
-    #"https://civitai.com/api/download/models/281935?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # Mentixis
-    #"https://civitai.com/api/download/models/315064?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # Long Exposure
-    #"https://civitai.com/api/download/models/237604?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # Double Vision
-    #"https://civitai.com/api/download/models/132469?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # Dystopia
-    #"https://civitai.com/api/download/models/332104?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # Zavy Contrast
-    #"https://civitai.com/api/download/models/332071?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # Film photography
-    #"https://civitai.com/api/download/models/180569?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 VAE_MODELS=(
