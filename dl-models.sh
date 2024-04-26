@@ -28,7 +28,7 @@ urls=(
     #  Samaritan 3D cartoon
     #"https://civitai.com/api/download/models/144566?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  TelmendoXL - mer realistisk
-    #"https://civitai.com/api/download/models/131960?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    "https://civitai.com/api/download/models/131960?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Pony Diffusion V6
     #"https://civitai.com/api/download/models/290640?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Suzannes Mix
