@@ -14,13 +14,17 @@ mkdir -p "$DOWNLOAD_DIR"
 # List of URLs to download
 urls=(
     #  Juggernaut XL v9 + RunDiffusionPhoto
-    "https://civitai.com/api/download/models/348913?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/348913?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    "https://huggingface.co/RunDiffusion/Juggernaut-X-v10/resolve/main/Juggernaut-X-RunDiffusion-NSFW.safetensors"
     #  Niji
     #"https://civitai.com/api/download/models/155870?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    "https://huggingface.co/inu-ai/niji-diffusion-xl-base-1.0/resolve/main/niji-diffusion-xl-base-1.0.safetensors"
     #  ZavyChromaXL
-    "https://civitai.com/api/download/models/320428?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/320428?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    "https://huggingface.co/misri/zavychromaxl_v70/resolve/main/zavychromaxl_v70.safetensors"
     #  Copax Timelsess
     #"https://civitai.com/api/download/models/344540?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    "https://huggingface.co/jetjodh/CopaxTimeLessXLv12/resolve/main/copaxTimelessxlSDXL1_v12.safetensors"
     #  Starlight
     #"https://civitai.com/api/download/models/182077?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Nightvision
@@ -34,7 +38,8 @@ urls=(
     #  Suzannes Mix
     #"https://civitai.com/api/download/models/312314?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     #  Colossus Project XL
-    "https://civitai.com/api/download/models/355884?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    "https://huggingface.co/n0madic/colossusProjectXL_v53/resolve/main/colossusProjectXLSFW_v53Trained.safetensors"
+    #"https://civitai.com/api/download/models/355884?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # AlbedoBase XL
     #"https://civitai.com/api/download/models/329420?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # REMERetroRefinedXL
@@ -42,7 +47,8 @@ urls=(
     # Ultraspice XL Turbo
     #"https://civitai.com/api/download/models/372600?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Onlyfornsfw
-    "https://civitai.com/api/download/models/363977?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    "https://huggingface.co/ferdyshampo/OnlyForNsfw118/resolve/main/onlyfornsfw118_v20.safetensors"
+    #"https://civitai.com/api/download/models/363977?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Tamarin XL
     #"https://civitai.com/api/download/models/265836?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # Mklan XXX
