@@ -42,7 +42,7 @@ NODES=(
     #IPadapter
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
     #ChatGPT
-    "https://github.com/AppleBotzz/ComfyUI_LLMVISION"
+    #"https://github.com/AppleBotzz/ComfyUI_LLMVISION"
     # 3D pose editor
     "https://github.com/hinablue/ComfyUI_3dPoseEditor"
     
