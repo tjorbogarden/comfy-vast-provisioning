@@ -37,14 +37,14 @@ NODES=(
     #denoiser
     "https://github.com/BlenderNeko/ComfyUI_Noise"
      #moondream, joytag
-    "https://github.com/gokayfem/ComfyUI_VLM_nodes"
+    #"https://github.com/gokayfem/ComfyUI_VLM_nodes"
     "https://github.com/palant/image-resize-comfyui"
     #IPadapter
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
     #ChatGPT
     #"https://github.com/AppleBotzz/ComfyUI_LLMVISION"
     # 3D pose editor
-    "https://github.com/hinablue/ComfyUI_3dPoseEditor"
+    #"https://github.com/hinablue/ComfyUI_3dPoseEditor"
     
     # SUPIR Upscaler
     "https://github.com/kijai/ComfyUI-SUPIR"
@@ -58,7 +58,7 @@ CHECKPOINT_MODELS=(
     #  Juggernaut XL v9 + RunDiffusionPhoto
     #"https://civitai.com/api/download/models/348913?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     # AlbedoBase XL
-    "https://civitai.com/api/download/models/329420?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/329420?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 
     # SUPIR upscale model
     "https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
