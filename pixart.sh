@@ -39,5 +39,9 @@ urls=(
     "https://huggingface.co/DeepFloyd/t5-v1_1-xxl/resolve/main/pytorch_model-00002-of-00002.bin"
     "https://huggingface.co/DeepFloyd/t5-v1_1-xxl/resolve/main/pytorch_model.bin.index.json"
     
-    
 )
+
+# Loop through the URLs and download each one
+for url in "${urls[@]}"; do
+    wget -qnc --content-disposition --show-progress -P "$DOWNLOAD_DIR" "$url"
+done
