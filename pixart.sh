@@ -53,11 +53,8 @@ mkdir -p "$DOWNLOAD_DIR"
 # List of URLs to download
 urls=(
     #Pixart Sigma t5
-    "https://huggingface.co/DeepFloyd/t5-v1_1-xxl/resolve/main/config.json"
-    "https://huggingface.co/DeepFloyd/t5-v1_1-xxl/resolve/main/pytorch_model-00001-of-00002.bin"
-    "https://huggingface.co/DeepFloyd/t5-v1_1-xxl/resolve/main/pytorch_model-00002-of-00002.bin"
-    "https://huggingface.co/DeepFloyd/t5-v1_1-xxl/resolve/main/pytorch_model.bin.index.json"
-    
+    "https://huggingface.co/city96/t5-v1_1-xxl-encoder-bf16/resolve/main/model.safetensors"
+    "https://huggingface.co/city96/t5-v1_1-xxl-encoder-bf16/resolve/main/config.json"   
 )
 
 # Loop through the URLs and download each one
