@@ -19,7 +19,7 @@ urls=(
 
 # Loop through the URLs and download each one
 for url in "${urls[@]}"; do
-    wget -qnc --content-disposition --show-progress -P --header=/"Authorization: Bearer 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/"" "$DOWNLOAD_DIR" "$url"
+    wget -qnc --content-disposition --show-progress -P --header=\"Authorization: Bearer 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\"" "$DOWNLOAD_DIR" "$url"
 done
 
 # Directory where files will be downloaded
@@ -36,7 +36,7 @@ urls=(
 
 # Loop through the URLs and download each one
 for url in "${urls[@]}"; do
-    wget -qnc --content-disposition --show-progress -P --header=/"Authorization: Bearer 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/"" "$DOWNLOAD_DIR" "$url"
+    wget -qnc --content-disposition --show-progress -P --header=\"Authorization: Bearer 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\"" "$DOWNLOAD_DIR" "$url"
 done
 #rename file
 mv "$DOWNLOAD_DIR"+diffusion_pytorch_model.safetensors pixart_sigma_vae.safetensors
@@ -50,8 +50,8 @@ mkdir -p "$DOWNLOAD_DIR"
 # List of URLs to download
 urls=(
   #clip
-  https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors --header="Authorization: Bearer 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" --content-disposition
-  https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors --header="Authorization: Bearer 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" --content-disposition
+  "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors" 
+  "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
 )
 
 # Loop through the URLs and download each one
