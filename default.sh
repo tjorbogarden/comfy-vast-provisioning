@@ -18,10 +18,10 @@ NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
     "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
-    "https://github.com/Fannovel16/comfyui_controlnet_aux"
-    "https://github.com/jags111/efficiency-nodes-comfyui"
+    #"https://github.com/Fannovel16/comfyui_controlnet_aux"
+    #"https://github.com/jags111/efficiency-nodes-comfyui"
     "https://github.com/rgthree/rgthree-comfy"
-    "https://github.com/chrisgoringe/cg-image-picker"
+    #"https://github.com/chrisgoringe/cg-image-picker"
     "https://github.com/chrisgoringe/cg-use-everywhere"
     "https://github.com/kijai/ComfyUI-KJNodes"
     "https://github.com/DonBaronFactory/ComfyUI-Cre8it-Nodes"
@@ -47,7 +47,7 @@ NODES=(
     #"https://github.com/hinablue/ComfyUI_3dPoseEditor"
     
     # SUPIR Upscaler
-    "https://github.com/kijai/ComfyUI-SUPIR"
+    #"https://github.com/kijai/ComfyUI-SUPIR"
     
     #  Egna
     "https://github.com/tjorbogarden/my-useful-comfyui-custom-nodes.git"
@@ -61,7 +61,7 @@ CHECKPOINT_MODELS=(
     #"https://civitai.com/api/download/models/329420?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 
     # SUPIR upscale model
-    "https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
+    #"https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
 
     #CCSR Upscale modell
     #"https://huggingface.co/camenduru/CCSR/resolve/main/real-world_ccsr.ckpt"
@@ -80,7 +80,7 @@ LORA_MODELS=(
 VAE_MODELS=(
     #"https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
     #"https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
-    "https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
+    #"https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
     #  VAE for Pony Diffusion V6
     #"https://civitai.com/api/download/models/290640?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     
@@ -95,11 +95,11 @@ ESRGAN_MODELS=(
 
 CONTROLNET_MODELS=(
     #  OpenPose 
-    "https://huggingface.co/thibaud/controlnet-openpose-sdxl-1.0/resolve/main/OpenPoseXL2.safetensors"
-    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-canny-rank128.safetensors"
-    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-depth-rank128.safetensors"
-    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-recolor-rank128.safetensors"
-    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-sketch-rank128-metadata.safetensors"
+    #"https://huggingface.co/thibaud/controlnet-openpose-sdxl-1.0/resolve/main/OpenPoseXL2.safetensors"
+    #"https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-canny-rank128.safetensors"
+    #"https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-depth-rank128.safetensors"
+    #"https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-recolor-rank128.safetensors"
+    #"https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-sketch-rank128-metadata.safetensors"
     
     
 )
