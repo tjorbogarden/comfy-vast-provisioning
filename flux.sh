@@ -32,6 +32,7 @@ mkdir -p "$DOWNLOAD_DIR"
 urls=(
   #vae
   "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors"
+  
 )
 
 # Loop through the URLs and download each one
@@ -52,6 +53,7 @@ urls=(
   #clip
   "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors" 
   "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
+  
 )
 
 # Loop through the URLs and download each one
