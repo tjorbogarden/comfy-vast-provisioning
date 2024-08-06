@@ -19,7 +19,7 @@ urls=(
 
 # Loop through the URLs and download each one
 for url in "${urls[@]}"; do
-    wget -qnc --content-disposition --show-progress -P --header=\"Authorization: Bearer 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\"" "$DOWNLOAD_DIR" "$url"
+    wget -qnc --content-disposition --show-progress -P --header="""Authorization: Bearer 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""" "$DOWNLOAD_DIR" "$url"
 done
 
 # Directory where files will be downloaded
@@ -36,7 +36,7 @@ urls=(
 
 # Loop through the URLs and download each one
 for url in "${urls[@]}"; do
-    wget -qnc --content-disposition --show-progress -P --header=\"Authorization: Bearer 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\"" "$DOWNLOAD_DIR" "$url"
+    wget -qnc --content-disposition --show-progress -P --header="""Authorization: Bearer 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""" "$DOWNLOAD_DIR" "$url"
 done
 #rename file
 mv "$DOWNLOAD_DIR"+diffusion_pytorch_model.safetensors pixart_sigma_vae.safetensors
