@@ -31,7 +31,7 @@ mkdir -p "$DOWNLOAD_DIR"
 # List of URLs to download
 urls=(
   #vae
-  https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors"
+  "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors"
 )
 
 # Loop through the URLs and download each one
