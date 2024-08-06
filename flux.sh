@@ -13,13 +13,13 @@ mkdir -p "$DOWNLOAD_DIR"
 # List of URLs to download
 urls=(
   #unet
-  https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors --header="Authorization: Bearer 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" --content-disposition
+  "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors"
 
 )
 
 # Loop through the URLs and download each one
 for url in "${urls[@]}"; do
-    wget -qnc --content-disposition --show-progress -P "$DOWNLOAD_DIR" "$url"
+    wget -qnc --content-disposition --show-progress -P --header=/"Authorization: Bearer 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/"" "$DOWNLOAD_DIR" "$url"
 done
 
 # Directory where files will be downloaded
@@ -31,12 +31,12 @@ mkdir -p "$DOWNLOAD_DIR"
 # List of URLs to download
 urls=(
   #vae
-  https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors --header="Authorization: Bearer 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" --content-disposition
+  https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors"
 )
 
 # Loop through the URLs and download each one
 for url in "${urls[@]}"; do
-    wget -qnc --content-disposition --show-progress -P "$DOWNLOAD_DIR" "$url"
+    wget -qnc --content-disposition --show-progress -P --header=/"Authorization: Bearer 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/"" "$DOWNLOAD_DIR" "$url"
 done
 #rename file
 mv "$DOWNLOAD_DIR"+diffusion_pytorch_model.safetensors pixart_sigma_vae.safetensors
