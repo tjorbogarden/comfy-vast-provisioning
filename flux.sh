@@ -8,9 +8,10 @@
 UNET_DIR="/opt/ComfyUI/models/unet/"
 VAE_DIR="/opt/ComfyUI/models/vae/"
 CLIP_DIR="/opt/ComfyUI/models/clip/"
+CHECKPOINTS_DIR="/opt/ComfyUI/models/checkpoints/"
 
 # Create the download directories if they don't exist
-mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR"
+mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR" "$CHECKPOINTS_DIR"
 
 # List of URLs to download for unet
 unet_urls=(
@@ -39,6 +40,16 @@ clip_urls=(
 )
 
 # Download clip files
-for url in "${clip_urls[@]}"; do
+for url in "${clip[@]}"; do
     wget -qnc --content-disposition --show-progress -P "$CLIP_DIR" "$url"
+done
+
+# List of URLs to download for checkpoints
+checkpoint_urls=(
+  "https://huggingface.co/ferdyshampo/OnlyForNsfw118/resolve/main/onlyfornsfw118_v20.safetensors"
+)
+
+# Download clip files
+for url in "${checkpoint_urls[@]}"; do
+    wget -qnc --content-disposition --show-progress -P "$CHECKPOINTS_DIR" "$url"
 done
