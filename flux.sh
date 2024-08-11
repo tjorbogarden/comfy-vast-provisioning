@@ -9,9 +9,10 @@ UNET_DIR="/opt/ComfyUI/models/unet/"
 VAE_DIR="/opt/ComfyUI/models/vae/"
 CLIP_DIR="/opt/ComfyUI/models/clip/"
 CHECKPOINTS_DIR="/opt/ComfyUI/models/checkpoints/"
+ESRGAN_DIR="/opt/ComfyUI/models/ESRGAN/"
 
 # Create the download directories if they don't exist
-mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR" "$CHECKPOINTS_DIR"
+mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR" "$CHECKPOINTS_DIR" "$ESRGAN_DIR"
 
 # List of URLs to download for unet
 unet_urls=(
@@ -52,7 +53,17 @@ checkpoint_urls=(
   "https://huggingface.co/n0madic/colossusProjectXL_v53/resolve/main/colossusProjectXLSFW_v53Trained.safetensors"
 )
 
-# Download clip files
+# Download checkpoint files
 for url in "${checkpoint_urls[@]}"; do
+    wget -qnc --content-disposition --show-progress -P "$CHECKPOINTS_DIR" "$url"
+done
+
+# List of URLs to download for upscalers
+esrgan_urls=(
+https://huggingface.co/lokCX/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth?download=true
+)
+
+# Download upscaler files
+for url in "${esrgan_urls[@]}"; do
     wget -qnc --content-disposition --show-progress -P "$CHECKPOINTS_DIR" "$url"
 done
