@@ -9,10 +9,10 @@ UNET_DIR="/opt/ComfyUI/models/unet/"
 VAE_DIR="/opt/ComfyUI/models/vae/"
 CLIP_DIR="/opt/ComfyUI/models/clip/"
 CHECKPOINTS_DIR="/opt/ComfyUI/models/checkpoints/"
-ESRGAN_DIR="/opt/ComfyUI/models/ESRGAN/"
+ESRGAN_DIR="/opt/ComfyUI/models/upscale_models/"
 
 # Create the download directories if they don't exist
-mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR" "$CHECKPOINTS_DIR" "$ESRGAN_DIR"
+mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR" "$CHECKPOINTS_DIR" "$UPSCALE_MODELS_DIR"
 
 # List of URLs to download for unet
 unet_urls=(
@@ -59,11 +59,11 @@ for url in "${checkpoint_urls[@]}"; do
 done
 
 # List of URLs to download for upscalers
-esrgan_urls=(
-https://huggingface.co/lokCX/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth?download=true
+upscale_models_urls=(
+  "https://huggingface.co/lokCX/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth"
 )
 
 # Download upscaler files
-for url in "${esrgan_urls[@]}"; do
+for url in "${upscale_models_urls[@]}"; do
     wget -qnc --content-disposition --show-progress -P "$CHECKPOINTS_DIR" "$url"
 done
