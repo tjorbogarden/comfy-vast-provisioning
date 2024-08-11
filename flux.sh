@@ -40,7 +40,7 @@ clip_urls=(
 )
 
 # Download clip files
-for url in "${clip[@]}"; do
+for url in "${clip_urls[@]}"; do
     wget -qnc --content-disposition --show-progress -P "$CLIP_DIR" "$url"
 done
 
