@@ -9,7 +9,7 @@ UNET_DIR="/opt/ComfyUI/models/unet/"
 VAE_DIR="/opt/ComfyUI/models/vae/"
 CLIP_DIR="/opt/ComfyUI/models/clip/"
 CHECKPOINTS_DIR="/opt/ComfyUI/models/checkpoints/"
-ESRGAN_DIR="/opt/ComfyUI/models/upscale_models/"
+UPSCALE_MODELS_DIR="/opt/ComfyUI/models/upscale_models/"
 
 # Create the download directories if they don't exist
 mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR" "$CHECKPOINTS_DIR" "$UPSCALE_MODELS_DIR"
