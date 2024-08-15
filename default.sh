@@ -22,25 +22,25 @@ NODES=(
     #"https://github.com/jags111/efficiency-nodes-comfyui"
     "https://github.com/rgthree/rgthree-comfy"
     #"https://github.com/chrisgoringe/cg-image-picker"
-    "https://github.com/chrisgoringe/cg-use-everywhere"
-    "https://github.com/kijai/ComfyUI-KJNodes"
-    "https://github.com/DonBaronFactory/ComfyUI-Cre8it-Nodes"
+    #"https://github.com/chrisgoringe/cg-use-everywhere"
+    #"https://github.com/kijai/ComfyUI-KJNodes"
+    #"https://github.com/DonBaronFactory/ComfyUI-Cre8it-Nodes"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     #  Nya/test
-    "https://github.com/tinyterra/ComfyUI_tinyterraNodes"
-    "https://github.com/WASasquatch/was-node-suite-comfyui"
-    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
-    "https://github.com/chrisgoringe/cg-training-tools" 
+    #"https://github.com/tinyterra/ComfyUI_tinyterraNodes"
+    #"https://github.com/WASasquatch/was-node-suite-comfyui"
+    "#https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+    #"https://github.com/chrisgoringe/cg-training-tools" 
     #"https://github.com/pythongosssss/ComfyUI-WD14-Tagger.git"
     #"https://github.com/sipherxyz/comfyui-art-venture.git" - verkar trasig
-    "https://github.com/melMass/comfy_mtb.git"
+    #"https://github.com/melMass/comfy_mtb.git"
     #denoiser
-    "https://github.com/BlenderNeko/ComfyUI_Noise"
+    #"https://github.com/BlenderNeko/ComfyUI_Noise"
      #moondream, joytag
     #"https://github.com/gokayfem/ComfyUI_VLM_nodes"
-    "https://github.com/palant/image-resize-comfyui"
+    #"https://github.com/palant/image-resize-comfyui"
     #IPadapter
-    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
+    #"https://github.com/cubiq/ComfyUI_IPAdapter_plus"
     #ChatGPT
     #"https://github.com/AppleBotzz/ComfyUI_LLMVISION"
     # 3D pose editor
@@ -50,7 +50,7 @@ NODES=(
     #"https://github.com/kijai/ComfyUI-SUPIR"
     
     #  Egna
-    "https://github.com/tjorbogarden/my-useful-comfyui-custom-nodes.git"
+    #"https://github.com/tjorbogarden/my-useful-comfyui-custom-nodes.git"
 
 )
 
@@ -104,17 +104,17 @@ CONTROLNET_MODELS=(
     
 )
 EMBEDDINGS=(
-    "https://civitai.com/api/download/models/258279?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    "https://civitai.com/api/download/models/260443?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    "https://civitai.com/api/download/models/256177?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    "https://civitai.com/api/download/models/255516?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    "https://civitai.com/api/download/models/254195?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/258279?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/260443?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/256177?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/255516?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/254195?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 WORKFLOWS=(
-    "https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/workflow-vast.json"
-    "https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/txt2img.json"
-    "https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/img2img.json"
+    #"https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/workflow-vast.json"
+    #"https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/txt2img.json"
+    #"https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/img2img.json"
 )
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
