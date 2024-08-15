@@ -18,18 +18,39 @@ NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
     "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
+
+    "https://github.com/rgthree/rgthree-comfy"
+    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
+
+    #WAS node suite
+    "https://github.com/WASasquatch/was-node-suite-comfyui"
+    #Ultimate SD Upscale
+    "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
+    #Comfyroll Studio
+    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+    # Comfyui art venture
+    "https://github.com/sipherxyz/comfyui-art-venture"
+    # SDXL Auto Prompter (dagthomas, ChatGPT)
+    "https://github.com/dagthomas/comfyui_dagthomas"
+    # Use Everywhere
+    "https://github.com/chrisgoringe/cg-use-everywhere"
+    # ComfyUI Easy Use
+    "https://github.com/yolain/ComfyUI-Easy-Use"
+    
+
+
+    
     #"https://github.com/Fannovel16/comfyui_controlnet_aux"
     #"https://github.com/jags111/efficiency-nodes-comfyui"
-    "https://github.com/rgthree/rgthree-comfy"
+
     #"https://github.com/chrisgoringe/cg-image-picker"
     #"https://github.com/chrisgoringe/cg-use-everywhere"
     #"https://github.com/kijai/ComfyUI-KJNodes"
     #"https://github.com/DonBaronFactory/ComfyUI-Cre8it-Nodes"
-    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
+
     #  Nya/test
     #"https://github.com/tinyterra/ComfyUI_tinyterraNodes"
     #"https://github.com/WASasquatch/was-node-suite-comfyui"
-    "#https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
     #"https://github.com/chrisgoringe/cg-training-tools" 
     #"https://github.com/pythongosssss/ComfyUI-WD14-Tagger.git"
     #"https://github.com/sipherxyz/comfyui-art-venture.git" - verkar trasig
