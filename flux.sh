@@ -14,6 +14,8 @@ UPSCALE_MODELS_DIR="/opt/ComfyUI/models/upscale_models/"
 # Create the download directories if they don't exist
 mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR" "$CHECKPOINTS_DIR" "$UPSCALE_MODELS_DIR"
 
+pip install chardet
+
 # List of URLs to download for unet
 unet_urls=(
   "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors"
