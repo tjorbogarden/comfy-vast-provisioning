@@ -68,5 +68,5 @@ upscale_models_urls=(
 
 # Download upscaler files
 for url in "${upscale_models_urls[@]}"; do
-    wget -qnc --content-disposition --show-progress -P "$CHECKPOINTS_DIR" "$url"
+    wget -qnc --content-disposition --show-progress -P "$UPSCALE_MODELS_DIR" "$url"
 done
