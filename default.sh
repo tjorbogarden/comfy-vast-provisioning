@@ -36,7 +36,8 @@ NODES=(
     "https://github.com/chrisgoringe/cg-use-everywhere"
     # ComfyUI Easy Use
     "https://github.com/yolain/ComfyUI-Easy-Use"
-    
+    # save image with metadata
+    https://github.com/giriss/comfy-image-saver
 
 
     
