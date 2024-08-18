@@ -37,7 +37,10 @@ NODES=(
     # ComfyUI Easy Use
     "https://github.com/yolain/ComfyUI-Easy-Use"
     # save image with metadata
-    https://github.com/giriss/comfy-image-saver
+    "https://github.com/giriss/comfy-image-saver"
+
+    # ComfyUI GGUF model loader
+    "https://github.com/city96/ComfyUI-GGUF"
 
 
     
