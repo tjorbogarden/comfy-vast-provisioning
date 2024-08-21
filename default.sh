@@ -42,6 +42,9 @@ NODES=(
     # ComfyUI GGUF model loader
     "https://github.com/city96/ComfyUI-GGUF"
 
+    # Get/Set nodes
+    "https://github.com/kijai/ComfyUI-KJNodes"
+
 
     
     #"https://github.com/Fannovel16/comfyui_controlnet_aux"
