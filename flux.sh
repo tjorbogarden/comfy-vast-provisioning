@@ -69,8 +69,12 @@ done
 
 # List of URLs to download for loras
 loras_urls=(
+  # female anatomy
   "https://civitai.com/api/download/models/736227?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # faetastic details
   "https://civitai.com/api/download/models/720252?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Serpieri Druuna
+  "https://civitai.com/api/download/models/728501?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Download lora files
