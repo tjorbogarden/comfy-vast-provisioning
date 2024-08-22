@@ -102,7 +102,7 @@ CHECKPOINT_MODELS=(
 
 LORA_MODELS=(
     #Add Details (Detail Tweaker XL)
-    "https://civitai.com/api/download/models/135867?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+    #"https://civitai.com/api/download/models/135867?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 VAE_MODELS=(
