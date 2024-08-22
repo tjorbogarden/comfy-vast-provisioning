@@ -76,7 +76,9 @@ loras_urls=(
   # Serpieri Druuna
   "https://civitai.com/api/download/models/728501?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Cinematic
-  "https://civitai.com/api/download/models/748039?token=ad415154d4ad70c87127eb1bbe7bc6b4
+  "https://civitai.com/api/download/models/748039?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Full female anatomy
+  "https://civitai.com/api/download/models/748526?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Download lora files
