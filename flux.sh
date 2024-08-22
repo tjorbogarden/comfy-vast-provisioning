@@ -79,6 +79,10 @@ loras_urls=(
   "https://civitai.com/api/download/models/748039?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Full female anatomy
   "https://civitai.com/api/download/models/748526?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Detailifier
+  "https://civitai.com/api/download/models/739154?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Nipple Fix
+  "https://civitai.com/api/download/models/733194?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Download lora files
