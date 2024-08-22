@@ -75,6 +75,8 @@ loras_urls=(
   "https://civitai.com/api/download/models/720252?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Serpieri Druuna
   "https://civitai.com/api/download/models/728501?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Cinematic
+  "https://civitai.com/api/download/models/748039?token=ad415154d4ad70c87127eb1bbe7bc6b4
 )
 
 # Download lora files
