@@ -70,6 +70,7 @@ done
 # List of URLs to download for loras
 loras_urls=(
   "https://civitai.com/api/download/models/736227?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  "https://civitai.com/api/download/models/720252?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Download lora files
