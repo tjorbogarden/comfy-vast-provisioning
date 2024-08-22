@@ -9,10 +9,11 @@ UNET_DIR="/opt/ComfyUI/models/unet/"
 VAE_DIR="/opt/ComfyUI/models/vae/"
 CLIP_DIR="/opt/ComfyUI/models/clip/"
 CHECKPOINTS_DIR="/opt/ComfyUI/models/checkpoints/"
+LORAS_DIR="/opt/ComfyUI/models/loras/"
 UPSCALE_MODELS_DIR="/opt/ComfyUI/models/upscale_models/"
 
 # Create the download directories if they don't exist
-mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR" "$CHECKPOINTS_DIR" "$UPSCALE_MODELS_DIR"
+mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR" "$CHECKPOINTS_DIR" "$LORAS_DIR" "$UPSCALE_MODELS_DIR"
 
 # install prereq dagthomas nodes
 pip install chardet
@@ -61,6 +62,16 @@ checkpoint_urls=(
 # Download checkpoint files
 for url in "${checkpoint_urls[@]}"; do
     wget -qnc --content-disposition --show-progress -P "$CHECKPOINTS_DIR" "$url"
+done
+
+# List of URLs to download for loras
+loras_urls=(
+  "https://civitai.com/api/download/models/736227?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+)
+
+# Download lora files
+for url in "${loras_urls[@]}"; do
+    wget -qnc --content-disposition --show-progress -P "$LORAS_DIR" "$url"
 done
 
 # List of URLs to download for upscalers
