@@ -45,6 +45,9 @@ NODES=(
     # Get/Set nodes
     "https://github.com/kijai/ComfyUI-KJNodes"
 
+    # Joy Caption 
+    "https://github.com/aidenli/ComfyUI_NYJY"
+
 
     
     #"https://github.com/Fannovel16/comfyui_controlnet_aux"
