@@ -11,9 +11,10 @@ CLIP_DIR="/opt/ComfyUI/models/clip/"
 CHECKPOINTS_DIR="/opt/ComfyUI/models/checkpoints/"
 LORAS_DIR="/opt/ComfyUI/models/loras/"
 UPSCALE_MODELS_DIR="/opt/ComfyUI/models/upscale_models/"
+LLM_DIR="/opt/ComfyUI/models/llm_gguf/"
 
 # Create the download directories if they don't exist
-mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR" "$CHECKPOINTS_DIR" "$LORAS_DIR" "$UPSCALE_MODELS_DIR"
+mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR" "$CHECKPOINTS_DIR" "$LORAS_DIR" "$UPSCALE_MODELS_DIR" "$LLM_DIR"
 
 # install prereq dagthomas nodes - behövs inte längre? 
 # pip install chardet
@@ -100,4 +101,14 @@ upscale_models_urls=(
 # Download upscaler files
 for url in "${upscale_models_urls[@]}"; do
     wget -qnc --content-disposition --show-progress -P "$UPSCALE_MODELS_DIR" "$url"
+done
+
+# List of URLs to download for LLM
+llm_urls=(
+  "https://huggingface.co/MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF/resolve/main/Mistral-7B-Instruct-v0.3.Q4_K_M.gguf"
+)
+
+# Download LLM files
+for url in "${llm_urls[@]}"; do
+    wget -qnc --content-disposition --show-progress -P "$LLM_DIR" "$url"
 done
