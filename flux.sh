@@ -86,6 +86,8 @@ loras_urls=(
   "https://civitai.com/api/download/models/733194?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # NSFW flux lora
   "https://civitai.com/api/download/models/733658?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Frank Frazetta oil painting fantasy style
+  "https://civitai.com/api/download/models/792756?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Download lora files
