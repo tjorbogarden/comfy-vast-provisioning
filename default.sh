@@ -47,6 +47,7 @@ NODES=(
 
     # Joy Caption 
     "https://github.com/aidenli/ComfyUI_NYJY"
+    "https://github.com/StartHua/Comfyui_CXH_joy_caption"
 
     # FLux Resolution
     "https://github.com/gseth/ControlAltAI-Nodes"
