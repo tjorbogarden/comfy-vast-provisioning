@@ -48,6 +48,9 @@ NODES=(
     # Joy Caption 
     "https://github.com/aidenli/ComfyUI_NYJY"
 
+    # FLux Resolution
+    "https://github.com/gseth/ControlAltAI-Nodes"
+
 
     
     #"https://github.com/Fannovel16/comfyui_controlnet_aux"
