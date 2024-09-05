@@ -54,6 +54,9 @@ NODES=(
     # FLux Resolution
     "https://github.com/gseth/ControlAltAI-Nodes"
 
+    # Searge LLM
+    "https://github.com/SeargeDP/ComfyUI_Searge_LLM"
+
 
     
     #"https://github.com/Fannovel16/comfyui_controlnet_aux"
