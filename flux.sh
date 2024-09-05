@@ -15,8 +15,8 @@ UPSCALE_MODELS_DIR="/opt/ComfyUI/models/upscale_models/"
 # Create the download directories if they don't exist
 mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR" "$CHECKPOINTS_DIR" "$LORAS_DIR" "$UPSCALE_MODELS_DIR"
 
-# install prereq dagthomas nodes
-pip install chardet
+# install prereq dagthomas nodes - behövs inte längre? 
+# pip install chardet
 
 # List of URLs to download for unet
 unet_urls=(
