@@ -88,6 +88,12 @@ loras_urls=(
   "https://civitai.com/api/download/models/733658?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Frank Frazetta oil painting fantasy style
   "https://civitai.com/api/download/models/792756?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Heavy Metal
+  "https://civitai.com/api/download/models/745309?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Koda(k)
+  "https://civitai.com/api/download/models/730657?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Ansel Adams
+  "https://civitai.com/api/download/models/757542?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Download lora files
