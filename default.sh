@@ -48,14 +48,14 @@ NODES=(
     "https://github.com/kijai/ComfyUI-KJNodes"
 
     # Joy Caption 
-    "https://github.com/aidenli/ComfyUI_NYJY"
+    #"https://github.com/aidenli/ComfyUI_NYJY"
     # "https://github.com/StartHua/Comfyui_CXH_joy_caption"
 
     # FLux Resolution
     "https://github.com/gseth/ControlAltAI-Nodes"
 
     # Searge LLM
-    "https://github.com/SeargeDP/ComfyUI_Searge_LLM"
+    #"https://github.com/SeargeDP/ComfyUI_Searge_LLM"
 
 
     
