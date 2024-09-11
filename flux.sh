@@ -19,6 +19,9 @@ mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR" "$CHECKPOINTS_DIR" "$LORAS_DIR" "$UP
 # install prereq dagthomas nodes - behövs inte längre? 
 # pip install chardet
 
+# install prereq joytag
+pip install lxml
+
 # List of URLs to download for unet
 unet_urls=(
   #"https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors"
