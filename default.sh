@@ -48,7 +48,7 @@ NODES=(
     "https://github.com/kijai/ComfyUI-KJNodes"
 
     # Joy Caption 
-    #"https://github.com/aidenli/ComfyUI_NYJY"
+    "https://github.com/aidenli/ComfyUI_NYJY"
     # "https://github.com/StartHua/Comfyui_CXH_joy_caption"
 
     # FLux Resolution
@@ -56,6 +56,9 @@ NODES=(
 
     # Searge LLM
     #"https://github.com/SeargeDP/ComfyUI_Searge_LLM"
+
+    # Systemmonitor visar CPU osv
+    "https://github.com/crystian/ComfyUI-Crystools"
 
 
     
