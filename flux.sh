@@ -11,7 +11,7 @@ CLIP_DIR="/opt/ComfyUI/models/clip/"
 CHECKPOINTS_DIR="/opt/ComfyUI/models/checkpoints/"
 LORAS_DIR="/opt/ComfyUI/models/loras/"
 UPSCALE_MODELS_DIR="/opt/ComfyUI/models/upscale_models/"
-LLM_DIR="/opt/ComfyUI/models/llm_gguf/"
+LLM_DIR="/opt/ComfyUI/models/llm/"
 
 # Create the download directories if they don't exist
 mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR" "$CHECKPOINTS_DIR" "$LORAS_DIR" "$UPSCALE_MODELS_DIR" "$LLM_DIR"
