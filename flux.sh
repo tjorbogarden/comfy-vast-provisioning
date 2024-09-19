@@ -76,19 +76,19 @@ done
 # List of URLs to download for loras
 loras_urls=(
   # female anatomy
-  "https://civitai.com/api/download/models/736227?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  #"https://civitai.com/api/download/models/736227?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # faetastic details
   "https://civitai.com/api/download/models/720252?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Serpieri Druuna
   "https://civitai.com/api/download/models/728501?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Cinematic
-  "https://civitai.com/api/download/models/748039?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  #"https://civitai.com/api/download/models/748039?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Full female anatomy
   "https://civitai.com/api/download/models/748526?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Detailifier
   "https://civitai.com/api/download/models/739154?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Nipple Fix
-  "https://civitai.com/api/download/models/733194?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  #"https://civitai.com/api/download/models/733194?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # NSFW flux lora
   "https://civitai.com/api/download/models/733658?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Frank Frazetta oil painting fantasy style
@@ -99,6 +99,10 @@ loras_urls=(
   "https://civitai.com/api/download/models/730657?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Ansel Adams
   "https://civitai.com/api/download/models/757542?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Ars Midjourney Style
+  "https://civitai.com/api/download/models/727320?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Flux meets Midjourney
+  "https://civitai.com/api/download/models/745845?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Download lora files
