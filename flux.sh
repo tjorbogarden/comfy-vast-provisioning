@@ -103,6 +103,8 @@ loras_urls=(
   "https://civitai.com/api/download/models/727320?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Flux meets Midjourney
   "https://civitai.com/api/download/models/745845?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # realistic skin detailed photorealism
+  "https://civitai.com/api/download/models/820397?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Download lora files
