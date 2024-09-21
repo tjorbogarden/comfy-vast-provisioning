@@ -29,7 +29,7 @@ unet_urls=(
   #PixelWave Flux
   "https://huggingface.co/mikeyandfriends/PixelWave_FLUX.1-dev_02/resolve/main/pixelwave_flux1_dev_Q8_0_02.gguf"
   #Flux Dev GGUF
-  #"https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q8_0.gguf"
+  "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q8_0.gguf"
   #Flux Unchained GGUF
   #"https://huggingface.co/mhnakif/fluxunchained-dev/resolve/main/fluxunchained-dev-q8-0.gguf"
 )
