@@ -111,6 +111,10 @@ loras_urls=(
   "https://civitai.com/api/download/models/820397?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # sameface lora
   "https://civitai.com/api/download/models/857446?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # dramatic portrait
+  "https://civitai.com/api/download/models/1165313?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # dramatic portrait BW - trigger "BW portrait"
+  "https://civitai.com/api/download/models/1169868?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Download lora files
