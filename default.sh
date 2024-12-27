@@ -54,12 +54,14 @@ NODES=(
     # FLux Resolution
     "https://github.com/gseth/ControlAltAI-Nodes"
 
-    # Searge LLM
-    #"https://github.com/SeargeDP/ComfyUI_Searge_LLM"
-
     # Systemmonitor visar CPU osv
-    "https://github.com/crystian/ComfyUI-Crystools"
+    #"https://github.com/crystian/ComfyUI-Crystools"
 
+    #Fluxtapoz
+    "https://github.com/logtd/ComfyUI-Fluxtapoz"
+
+    # Regional Prompting - Dave Custom Node
+    "https://github.com/Davemane42/ComfyUI_Dave_CustomNode"
 
     
     #"https://github.com/Fannovel16/comfyui_controlnet_aux"
