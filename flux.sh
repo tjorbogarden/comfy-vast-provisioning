@@ -34,6 +34,8 @@ unet_urls=(
   #"https://huggingface.co/mhnakif/fluxunchained-dev/resolve/main/fluxunchained-dev-q8-0.gguf"
   # STOIQO Afrodite Flux
   #"https://civitai.com/api/download/models/897489?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  #Fluxmania
+  #"https://civitai.com/api/download/models/1129380?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Download unet files
@@ -115,6 +117,8 @@ loras_urls=(
   "https://civitai.com/api/download/models/1165313?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # dramatic portrait BW - trigger "BW portrait"
   "https://civitai.com/api/download/models/1169868?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Mangaka
+  "https://civitai.com/api/download/models/1073576?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Download lora files
