@@ -12,15 +12,19 @@ CHECKPOINTS_DIR="/opt/ComfyUI/models/checkpoints/"
 LORAS_DIR="/opt/ComfyUI/models/loras/"
 UPSCALE_MODELS_DIR="/opt/ComfyUI/models/upscale_models/"
 LLM_DIR="/opt/ComfyUI/models/llm/"
+STYLE_MODELS="/opt/ComfyUI/models/style_models/"
+CLIPVISION_DIR="/opt/ComfyUI/models/clip_vision/"
 
 # Create the download directories if they don't exist
 mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR" "$CHECKPOINTS_DIR" "$LORAS_DIR" "$UPSCALE_MODELS_DIR" "$LLM_DIR"
 
 # install prereq dagthomas nodes - behövs inte längre? 
 # pip install chardet
+pip install openai==1.55.3 httpx==0.27.2 --force-reinstall --quiet
 
 # install prereq joytag
 pip install lxml
+
 
 # List of URLs to download for unet
 unet_urls=(
@@ -138,10 +142,30 @@ done
 
 # List of URLs to download for LLM
 llm_urls=(
-  # "https://huggingface.co/MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF/resolve/main/Mistral-7B-Instruct-v0.3.Q4_K_M.gguf"
+  "https://huggingface.co/MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF/resolve/main/Mistral-7B-Instruct-v0.3.Q4_K_M.gguf"
 )
 
 # Download LLM files
 for url in "${llm_urls[@]}"; do
     wget -qnc --content-disposition --show-progress -P "$LLM_DIR" "$url"
+done
+
+# List of URLs to download for Clip Vision
+clipvision_urls=(
+  "https://huggingface.co/Comfy-Org/sigclip_vision_384/resolve/main/sigclip_vision_patch14_384.safetensors"
+)
+
+# Download ClipVision files
+for url in "${clipvision_urls[@]}"; do
+    wget -qnc --content-disposition --show-progress -P "$STYLE_MODELS" "$url"
+done
+
+# List of URLs to download for Style Models
+stylemodels_urls=(
+  "https://huggingface.co/black-forest-labs/FLUX.1-Redux-dev/resolve/main/flux1-redux-dev.safetensors"
+)
+
+# Download Style Model files
+for url in "${stylemodels_urls[@]}"; do
+    wget -qnc --content-disposition --show-progress --header="Authorization: Bearer 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" -P "$STYLE_MODELS" "$url" 
 done
