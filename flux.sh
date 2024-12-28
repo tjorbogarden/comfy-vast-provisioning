@@ -157,7 +157,7 @@ clipvision_urls=(
 
 # Download ClipVision files
 for url in "${clipvision_urls[@]}"; do
-    wget -qnc --content-disposition --show-progress -P "$STYLE_MODELS" "$url"
+    wget -qnc --content-disposition --show-progress -P "$CLIPVISION_DIR" "$url"
 done
 
 # List of URLs to download for Style Models
