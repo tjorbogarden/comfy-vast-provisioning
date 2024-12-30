@@ -9,7 +9,6 @@ ZIPFILE="flux-backup.zip"
 # Specify the folders you want to include in the zip
 FOLDERS=(
     "/opt/ComfyUI/custom_nodes"
-    "/opt/ComfyUI/models/loras/"
     "/opt/ComfyUI/models/pulid"
     "/opt/ComfyUI/models/configs"
     "/opt/ComfyUI/user/default/workflows"
