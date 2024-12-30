@@ -63,8 +63,8 @@ NODES=(
     # Regional Prompting - Dave Custom Node
     "https://github.com/Davemane42/ComfyUI_Dave_CustomNode"
 
-    # ComfyUI Model Downloader
-    "https://github.com/ciri/comfyui-model-downloader"
+    # CivitAI Model Downloader
+    "https://github.com/civitai/civitai_comfy_nodes.git"
 
 )
 
