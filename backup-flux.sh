@@ -1,14 +1,16 @@
 #!/bin/bash
 
 # Set the name of the output ZIP file
-ZIPFILE="my_backup.zip"
+ZIPFILE="flux-backup.zip"
 
 # Specify the folders you want to include in the zip
 FOLDERS=(
-    "/opt/ComfyUI/custom_nodes"
-    "/opt/ComfyUI/models/loras/"
-    "/opt/ComfyUI/models/pulid"
-    "/opt/ComfyUI/models/configs"
+    "opt/ComfyUI/custom_nodes"
+    "opt/ComfyUI/models/loras/"
+    "opt/ComfyUI/models/pulid"
+    "opt/ComfyUI/models/configs"
+    "opt/ComfyUI/user/default/workflows"
+    "opt/ComfyUI/models/clip/"
 )
 
 # Specify patterns/files/folders you want to exclude
@@ -19,7 +21,6 @@ FOLDERS=(
 EXCLUDES=(
     "opt/ComfyUI/models/clip/t5xxl_fp16.safetensors"
     "opt/ComfyUI/models/clip/clip_l.safetensors"
-    "folder1/secret.txt"
 )
 
 # Zip the folders recursively, applying the exclude patterns
