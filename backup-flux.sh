@@ -1,3 +1,6 @@
+# wget https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/flux-backup.sh --content-disposition
+
+
 #!/bin/bash
 
 # Set the name of the output ZIP file
