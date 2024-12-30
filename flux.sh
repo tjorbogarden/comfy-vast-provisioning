@@ -123,6 +123,8 @@ loras_urls=(
   "https://civitai.com/api/download/models/1169868?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Mangaka
   "https://civitai.com/api/download/models/1073576?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Organic Sauce Flux Pony tecknad stil 
+  "https://civitai.com/api/download/models/1000905?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Download lora files
