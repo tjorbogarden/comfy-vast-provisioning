@@ -5,9 +5,10 @@ ZIPFILE="my_backup.zip"
 
 # Specify the folders you want to include in the zip
 FOLDERS=(
-    "opt/ComfyUI/custom_nodes"
+    "/opt/ComfyUI/custom_nodes"
     "/opt/ComfyUI/models/loras/"
-    "opt/ComfyUI/models/pulid"
+    "/opt/ComfyUI/models/pulid"
+    "/opt/ComfyUI/models/configs"
 )
 
 # Specify patterns/files/folders you want to exclude
