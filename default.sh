@@ -66,40 +66,6 @@ NODES=(
     # ComfyUI Model Downloader
     "https://github.com/ciri/comfyui-model-downloader"
 
-    
-    #"https://github.com/Fannovel16/comfyui_controlnet_aux"
-    #"https://github.com/jags111/efficiency-nodes-comfyui"
-
-    #"https://github.com/chrisgoringe/cg-image-picker"
-    #"https://github.com/chrisgoringe/cg-use-everywhere"
-    #"https://github.com/kijai/ComfyUI-KJNodes"
-    #"https://github.com/DonBaronFactory/ComfyUI-Cre8it-Nodes"
-
-    #  Nya/test
-    #"https://github.com/tinyterra/ComfyUI_tinyterraNodes"
-    #"https://github.com/WASasquatch/was-node-suite-comfyui"
-    #"https://github.com/chrisgoringe/cg-training-tools" 
-    #"https://github.com/pythongosssss/ComfyUI-WD14-Tagger.git"
-    #"https://github.com/sipherxyz/comfyui-art-venture.git" - verkar trasig
-    #"https://github.com/melMass/comfy_mtb.git"
-    #denoiser
-    #"https://github.com/BlenderNeko/ComfyUI_Noise"
-     #moondream, joytag
-    #"https://github.com/gokayfem/ComfyUI_VLM_nodes"
-    #"https://github.com/palant/image-resize-comfyui"
-    #IPadapter
-    #"https://github.com/cubiq/ComfyUI_IPAdapter_plus"
-    #ChatGPT
-    #"https://github.com/AppleBotzz/ComfyUI_LLMVISION"
-    # 3D pose editor
-    #"https://github.com/hinablue/ComfyUI_3dPoseEditor"
-    
-    # SUPIR Upscaler
-    #"https://github.com/kijai/ComfyUI-SUPIR"
-    
-    #  Egna
-    #"https://github.com/tjorbogarden/my-useful-comfyui-custom-nodes.git"
-
 )
 
 CHECKPOINT_MODELS=(
