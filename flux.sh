@@ -127,6 +127,15 @@ loras_urls=(
   "https://civitai.com/api/download/models/838667?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Cyberpunk Anime style 
   "https://civitai.com/api/download/models/747534?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Mythport Fantasy Anime trigger word: "mythp0rt"
+  "https://civitai.com/api/download/models/753053?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Comic book page style trigger word: comic strip style
+  "https://civitai.com/api/download/models/841525?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # New Fantasy Core
+  "https://civitai.com/api/download/models/1067495?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Dynamic Ink  trigger word: Inkplash art
+  "https://civitai.com/api/download/models/914935?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+
 )
 
 # Download lora files
