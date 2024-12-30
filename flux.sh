@@ -17,12 +17,11 @@ CLIPVISION_DIR="/opt/ComfyUI/models/clip_vision/"
 # Create the download directories if they don't exist
 mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR" "$CHECKPOINTS_DIR" "$LORAS_DIR" "$UPSCALE_MODELS_DIR" "$LLM_DIR"
 
-# install prereq dagthomas nodes - behövs inte längre? 
-# pip install chardet
+# install prereq dagthomas nodes
 pip install openai==1.55.3 httpx==0.27.2 --force-reinstall --quiet
 
 # install prereq joytag
-pip install lxml
+pip install lxml bitsandbytes
 
 
 # List of URLs to download for unet
