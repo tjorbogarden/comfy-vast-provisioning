@@ -63,6 +63,9 @@ NODES=(
     # Regional Prompting - Dave Custom Node
     "https://github.com/Davemane42/ComfyUI_Dave_CustomNode"
 
+    # ComfyUI Model Downloader
+    "https://github.com/ciri/comfyui-model-downloader"
+
     
     #"https://github.com/Fannovel16/comfyui_controlnet_aux"
     #"https://github.com/jags111/efficiency-nodes-comfyui"
