@@ -123,6 +123,10 @@ loras_urls=(
   "https://civitai.com/api/download/models/1073576?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Organic Sauce Flux Pony tecknad stil 
   "https://civitai.com/api/download/models/1000905?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Flat Anime trigger word: "Flat colour anime style image showing"
+  "https://civitai.com/api/download/models/838667?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Cyberpunk Anime style 
+  "https://civitai.com/api/download/models/747534?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Download lora files
