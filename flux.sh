@@ -60,6 +60,7 @@ clip_urls=(
   "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
   # "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
   "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors"
+  "https://huggingface.co/QuanSun/EVA-CLIP/resolve/main/EVA02_CLIP_L_336_psz14_s6B.pt"
 )
 
 # Download clip files
@@ -138,6 +139,8 @@ loras_urls=(
   "https://civitai.com/api/download/models/914935?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Flux tools Depth Lora
   "https://civitai.com/api/download/models/1086175?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Ethereal Photography
+  "https://civitai.com/api/download/models/974452?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 
 )
 
