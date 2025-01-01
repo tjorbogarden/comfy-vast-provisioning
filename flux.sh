@@ -136,6 +136,8 @@ loras_urls=(
   "https://civitai.com/api/download/models/1067495?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Dynamic Ink  trigger word: Inkplash art
   "https://civitai.com/api/download/models/914935?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Flux tools Depth Lora
+  "https://civitai.com/api/download/models/1086175?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 
 )
 
