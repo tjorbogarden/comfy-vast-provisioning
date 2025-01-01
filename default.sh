@@ -14,6 +14,7 @@ PYTHON_PACKAGES=(
     "openai==1.55.3" 
     "httpx==0.27.2"
     "bitsandbytes"
+    "lxml"
 )
 
 NODES=(
