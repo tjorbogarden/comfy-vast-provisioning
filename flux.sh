@@ -15,7 +15,7 @@ STYLE_MODELS="/opt/ComfyUI/models/style_models/"
 CLIPVISION_DIR="/opt/ComfyUI/models/clip_vision/"
 
 # Create the download directories if they don't exist
-mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR" "$CHECKPOINTS_DIR" "$LORAS_DIR" "$UPSCALE_MODELS_DIR" "$LLM_DIR"
+mkdir -p "$UNET_DIR" "$VAE_DIR" "$CLIP_DIR" "$CHECKPOINTS_DIR" "$LORAS_DIR" "$UPSCALE_MODELS_DIR" "$STYLE_MODELS" "$CLIPVISION_DIR"
 
 # install prereq dagthomas nodes
 # pip install openai==1.55.3 httpx==0.27.2 --force-reinstall --quiet
