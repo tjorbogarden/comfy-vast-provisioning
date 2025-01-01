@@ -11,6 +11,9 @@
 
 PYTHON_PACKAGES=(
     #"opencv-python==4.7.0.72"
+    "openai==1.55.3" 
+    "httpx==0.27.2"
+    "bitsandbytes"
 )
 
 NODES=(
@@ -49,19 +52,12 @@ NODES=(
 
     # Joy Caption 
     "https://github.com/aidenli/ComfyUI_NYJY"
-    # "https://github.com/StartHua/Comfyui_CXH_joy_caption"
 
     # FLux Resolution
     "https://github.com/gseth/ControlAltAI-Nodes"
 
-    # Systemmonitor visar CPU osv
-    #"https://github.com/crystian/ComfyUI-Crystools"
-
     #Fluxtapoz
     "https://github.com/logtd/ComfyUI-Fluxtapoz"
-
-    # Regional Prompting - Dave Custom Node
-    "https://github.com/Davemane42/ComfyUI_Dave_CustomNode"
 
     # CivitAI Model Downloader
     "https://github.com/civitai/civitai_comfy_nodes.git"
@@ -71,19 +67,7 @@ NODES=(
 CHECKPOINT_MODELS=(
     #  Juggernaut XL v9 + RunDiffusionPhoto
     #"https://civitai.com/api/download/models/348913?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    # AlbedoBase XL
-    #"https://civitai.com/api/download/models/329420?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 
-    # SUPIR upscale model
-    #"https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
-
-    #CCSR Upscale modell
-    #"https://huggingface.co/camenduru/CCSR/resolve/main/real-world_ccsr.ckpt"
-
-    #  Stable Cascade
-    #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/stage_a.safetensors"
-    #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors"
-    #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors"
 )
 
 LORA_MODELS=(
@@ -93,42 +77,27 @@ LORA_MODELS=(
 
 VAE_MODELS=(
     #"https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
-    #"https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
-    #"https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
-    #  VAE for Pony Diffusion V6
-    #"https://civitai.com/api/download/models/290640?token=ad415154d4ad70c87127eb1bbe7bc6b4"
     
 )
 
 ESRGAN_MODELS=(
     #"https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
-    #"https://huggingface.co/FacehugmanIII/4x_foolhardy_Remacri/resolve/main/4x_foolhardy_Remacri.pth"
-    #"https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
 
 )
 
 CONTROLNET_MODELS=(
     #  OpenPose 
-    #"https://huggingface.co/thibaud/controlnet-openpose-sdxl-1.0/resolve/main/OpenPoseXL2.safetensors"
-    #"https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-canny-rank128.safetensors"
-    #"https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-depth-rank128.safetensors"
-    #"https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-recolor-rank128.safetensors"
-    #"https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-sketch-rank128-metadata.safetensors"
+    #"https://huggingface.co/thibaud/controlnet-openpose-sdxl-1.0/resolve/main/OpenPoseXL2.safetensors
     
     
 )
 EMBEDDINGS=(
     #"https://civitai.com/api/download/models/258279?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #"https://civitai.com/api/download/models/260443?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #"https://civitai.com/api/download/models/256177?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #"https://civitai.com/api/download/models/255516?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-    #"https://civitai.com/api/download/models/254195?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 WORKFLOWS=(
     #"https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/workflow-vast.json"
-    #"https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/txt2img.json"
-    #"https://github.com/tjorbogarden/comfy-vast-provisioning/raw/main/img2img.json"
+
 )
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
