@@ -182,3 +182,8 @@ stylemodels_urls=(
 for url in "${stylemodels_urls[@]}"; do
     wget -qnc --content-disposition --show-progress --header="Authorization: Bearer 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" -P "$STYLE_MODELS" "$url" 
 done
+
+cd /opt/Gdrive/
+chmod 777 models -R
+cp models/ ../ComfyUI/ -r
+cp custom_nodes/ ../ComfyUI/ -r
