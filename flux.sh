@@ -24,8 +24,8 @@ pip install openai==1.55.3 httpx==0.27.2 --force-reinstall --quiet
 pip install lxml bitsandbytes
 
 # Face Recognintion
-apt install cmake
-pip install face_recognition
+# apt install cmake
+# pip install face_recognition
 
 
 # List of URLs to download for unet
