@@ -20,48 +20,48 @@ PYTHON_PACKAGES=(
 NODES=(
     #  Basinstallation
     "https://github.com/ltdrdata/ComfyUI-Manager"
-    "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
-    "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
+    #"https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+    #"https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
 
-    "https://github.com/rgthree/rgthree-comfy"
-    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
+    #"https://github.com/rgthree/rgthree-comfy"
+    #"https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
 
     #WAS node suite
-    "https://github.com/WASasquatch/was-node-suite-comfyui"
+    #"https://github.com/WASasquatch/was-node-suite-comfyui"
     #Ultimate SD Upscale
-    "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
+    #"https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
     #Comfyroll Studio
-    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+    #"https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
     # Comfyui art venture
-    "https://github.com/sipherxyz/comfyui-art-venture"
+    #"https://github.com/sipherxyz/comfyui-art-venture"
     # SDXL Auto Prompter (dagthomas, ChatGPT)
-    "https://github.com/dagthomas/comfyui_dagthomas"
+    #"https://github.com/dagthomas/comfyui_dagthomas"
     # Use Everywhere
-    "https://github.com/chrisgoringe/cg-use-everywhere"
+    #"https://github.com/chrisgoringe/cg-use-everywhere"
     # ComfyUI Easy Use
-    "https://github.com/yolain/ComfyUI-Easy-Use"
+    #"https://github.com/yolain/ComfyUI-Easy-Use"
     # save image with metadata
-    "https://github.com/giriss/comfy-image-saver"
+    #"https://github.com/giriss/comfy-image-saver"
     # ComfyUI Essentials
-    "https://github.com/cubiq/ComfyUI_essentials"
+    #"https://github.com/cubiq/ComfyUI_essentials"
 
     # ComfyUI GGUF model loader
-    "https://github.com/city96/ComfyUI-GGUF"
+    #"https://github.com/city96/ComfyUI-GGUF"
 
     # Get/Set nodes
-    "https://github.com/kijai/ComfyUI-KJNodes"
+    #"https://github.com/kijai/ComfyUI-KJNodes"
 
     # Joy Caption 
-    "https://github.com/aidenli/ComfyUI_NYJY"
+    #"https://github.com/aidenli/ComfyUI_NYJY"
 
     # FLux Resolution
-    "https://github.com/gseth/ControlAltAI-Nodes"
+    #"https://github.com/gseth/ControlAltAI-Nodes"
 
     #Fluxtapoz
-    "https://github.com/logtd/ComfyUI-Fluxtapoz"
+    #"https://github.com/logtd/ComfyUI-Fluxtapoz"
 
     # CivitAI Model Downloader
-    "https://github.com/civitai/civitai_comfy_nodes.git"
+    #"https://github.com/civitai/civitai_comfy_nodes.git"
 
 )
 
