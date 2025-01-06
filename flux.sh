@@ -46,7 +46,11 @@ unet_urls=(
 
 # Download unet files
 for url in "${unet_urls[@]}"; do
-    wget -qnc --content-disposition --show-progress --header="Authorization: Bearer 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" -P "$UNET_DIR" "$url"
+    if [[ "$url" == *"huggingface.co"* ]]; then
+        wget -qnc --content-disposition --show-progress --header="Authorization: Bearer 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" -P "$UNET_DIR" "$url"
+    else
+        wget -qnc --content-disposition --show-progress -P "$UNET_DIR" "$url"
+    fi
 done
 
 # List of URLs to download for vae
@@ -92,7 +96,7 @@ loras_urls=(
   # female anatomy
   #"https://civitai.com/api/download/models/736227?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # faetastic details
-  "https://civitai.com/api/download/models/720252?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  #"https://civitai.com/api/download/models/720252?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Serpieri Druuna
   "https://civitai.com/api/download/models/728501?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Cinematic
@@ -100,7 +104,7 @@ loras_urls=(
   # Full female anatomy
   "https://civitai.com/api/download/models/748526?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Detailifier
-  "https://civitai.com/api/download/models/739154?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  #"https://civitai.com/api/download/models/739154?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Nipple Fix
   #"https://civitai.com/api/download/models/733194?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # NSFW flux lora
@@ -110,15 +114,15 @@ loras_urls=(
   # Heavy Metal
   "https://civitai.com/api/download/models/745309?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Koda(k)
-  "https://civitai.com/api/download/models/730657?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  #"https://civitai.com/api/download/models/730657?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Ansel Adams
   "https://civitai.com/api/download/models/757542?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Ars Midjourney Style
-  "https://civitai.com/api/download/models/727320?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  #"https://civitai.com/api/download/models/727320?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Flux meets Midjourney
-  "https://civitai.com/api/download/models/745845?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  #"https://civitai.com/api/download/models/745845?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # realistic skin detailed photorealism
-  "https://civitai.com/api/download/models/820397?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  #"https://civitai.com/api/download/models/820397?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # sameface lora
   "https://civitai.com/api/download/models/857446?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # dramatic portrait
