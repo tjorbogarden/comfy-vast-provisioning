@@ -41,7 +41,7 @@ unet_urls=(
   # STOIQO Afrodite Flux
   "https://civitai.com/api/download/models/897489?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   #Fluxmania
-  "https://civitai.com/api/download/models/1129380?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  #"https://civitai.com/api/download/models/1129380?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Download unet files
