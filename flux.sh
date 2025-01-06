@@ -185,5 +185,6 @@ done
 
 cd /opt/Gdrive/
 chmod 777 models -R
+chmod 777 custom_nodes -R
 cp models/ ../ComfyUI/ -r
 cp custom_nodes/ ../ComfyUI/ -r
