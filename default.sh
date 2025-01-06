@@ -66,6 +66,14 @@ NODES=(
     # Detail Daemon
     "https://github.com/Jonseed/ComfyUI-Detail-Daemon"
 
+    "https://github.com/Fannovel16/comfyui_controlnet_aux"
+    "https://github.com/TinyTerra/ComfyUI_tinyterraNodes"
+    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
+    "https://github.com/cubiq/ComfyUI_FaceAnalysis"
+    "https://github.com/glibsonoran/Plush-for-ComfyUI"
+    "https://github.com/jakechai/ComfyUI-JakeUpgrade"
+    "https://github.com/sipie800/ComfyUI-PuLID-Flux-Enhanced"
+    "https://github.com/kaibioinfo/ComfyUI_AdvancedRefluxControl"
 )
 
 CHECKPOINT_MODELS=(
