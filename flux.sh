@@ -149,6 +149,8 @@ loras_urls=(
   "https://civitai.com/api/download/models/1086175?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Ethereal Photography
   "https://civitai.com/api/download/models/974452?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Blur effect
+  "https://civitai.com/api/download/models/962598?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 
 )
 
