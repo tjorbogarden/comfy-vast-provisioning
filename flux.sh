@@ -23,10 +23,8 @@ pip install openai==1.55.3 httpx==0.27.2 --force-reinstall --quiet
 # install prereq joytag
 pip install lxml bitsandbytes
 
-# Face Recognintion
-# apt install cmake
-# pip install face_recognition
-
+#wheel
+pip install wheel
 
 # List of URLs to download for unet
 unet_urls=(
