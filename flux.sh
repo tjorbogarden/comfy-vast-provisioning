@@ -149,7 +149,6 @@ loras_urls=(
   "https://civitai.com/api/download/models/974452?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Blur effect trigger word: motion blur
   "https://civitai.com/api/download/models/962598?token=ad415154d4ad70c87127eb1bbe7bc6b4"
-
 )
 
 # Download lora files
