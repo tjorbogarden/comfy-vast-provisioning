@@ -41,7 +41,7 @@ unet_urls=(
   #Fluxmania
   #"https://civitai.com/api/download/models/1129380?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Iniverse Mix
-  "https://civitai.com/api/download/models/1031531?token=ad415154d4ad70c87127eb1bbe7bc6b4
+  "https://civitai.com/api/download/models/1031531?token=ad415154d4ad70c87127eb1bbe7bc6b4"
 )
 
 # Download unet files
