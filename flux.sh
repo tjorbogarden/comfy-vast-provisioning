@@ -42,6 +42,9 @@ unet_urls=(
   "https://civitai.com/api/download/models/1129380?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Iniverse Mix
   #"https://civitai.com/api/download/models/1031531?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # Flux Fill
+  "https://huggingface.co/SporkySporkness/FLUX.1-Fill-dev-GGUF/resolve/main/flux1-fill-dev-fp16-Q8_0-GGUF.gguf"
+  
 )
 
 # Download unet files
@@ -151,6 +154,8 @@ loras_urls=(
   "https://civitai.com/api/download/models/1091188?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Blur effect trigger word: motion blur
   "https://civitai.com/api/download/models/962598?token=ad415154d4ad70c87127eb1bbe7bc6b4"
+  # CatVitOn Lora, krävs för Try-on
+  "https://huggingface.co/xiaozaa/catvton-flux-lora-alpha/resolve/main/pytorch_lora_weights.safetensors"
 )
 
 # Download lora files
