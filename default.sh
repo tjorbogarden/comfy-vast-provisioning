@@ -75,6 +75,7 @@ NODES=(
     "https://github.com/sipie800/ComfyUI-PuLID-Flux-Enhanced"
     "https://github.com/kaibioinfo/ComfyUI_AdvancedRefluxControl"
     "https://github.com/kadirnar/ComfyUI-YOLO"
+    "https://github.com/chflame163/ComfyUI_LayerStyle_Advance"
 )
 
 CHECKPOINT_MODELS=(
