@@ -33,7 +33,7 @@ unet_urls=(
   #PixelWave Flux
   #"https://huggingface.co/mikeyandfriends/PixelWave_FLUX.1-dev_02/resolve/main/pixelwave_flux1_dev_Q8_0_02.gguf"
   #Flux Dev GGUF
-  "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q8_0.gguf"
+  #"https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q8_0.gguf"
   #Flux Unchained GGUF
   #"https://huggingface.co/mhnakif/fluxunchained-dev/resolve/main/fluxunchained-dev-q8-0.gguf"
   # STOIQO Afrodite Flux
@@ -44,7 +44,8 @@ unet_urls=(
   #"https://civitai.com/api/download/models/1031531?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Flux Fill
   "https://huggingface.co/SporkySporkness/FLUX.1-Fill-dev-GGUF/resolve/main/flux1-fill-dev-fp16-Q8_0-GGUF.gguf"
-  
+  # UltraReal Finetune v4
+  "https://huggingface.co/Danrisi/UltraReal_finetune_v4/resolve/main/UltraRealistic_FineTune_Project_v3-Q8_0.gguf"
 )
 
 # Download unet files
