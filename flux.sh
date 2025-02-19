@@ -33,7 +33,7 @@ unet_urls=(
   #PixelWave Flux
   #"https://huggingface.co/mikeyandfriends/PixelWave_FLUX.1-dev_02/resolve/main/pixelwave_flux1_dev_Q8_0_02.gguf"
   #Flux Dev GGUF
-  #"https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q8_0.gguf"
+  "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q8_0.gguf"
   #Flux Unchained GGUF
   #"https://huggingface.co/mhnakif/fluxunchained-dev/resolve/main/fluxunchained-dev-q8-0.gguf"
   # STOIQO Afrodite Flux
@@ -43,11 +43,11 @@ unet_urls=(
   # Iniverse Mix
   #"https://civitai.com/api/download/models/1031531?token=ad415154d4ad70c87127eb1bbe7bc6b4"
   # Flux Fill
-  #"https://huggingface.co/SporkySporkness/FLUX.1-Fill-dev-GGUF/resolve/main/flux1-fill-dev-fp16-Q8_0-GGUF.gguf"
+  "https://huggingface.co/SporkySporkness/FLUX.1-Fill-dev-GGUF/resolve/main/flux1-fill-dev-fp16-Q8_0-GGUF.gguf"
   # UltraReal Finetune v4
   #"https://huggingface.co/Danrisi/UltraReal_finetune_v4/resolve/main/UltraRealistic_FineTune_Project_v3-Q8_0.gguf"
   # Flux Abliterated
-  "https://huggingface.co/georgesung/flux.1-dev-abliterated-merged/resolve/main/flux_ablit_v2.safetensors"
+  # "https://huggingface.co/georgesung/flux.1-dev-abliterated-merged/resolve/main/flux_ablit_v2.safetensors"
 )
 
 # Download unet files
@@ -61,9 +61,9 @@ done
 
 # List of URLs to download for vae
 vae_urls=(
-  #"https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors"
+  "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors"
   # Ablit v2
-  "https://huggingface.co/georgesung/flux.1-dev-abliterated-merged/resolve/main/ae_ablit_v2.safetensors"
+  #"https://huggingface.co/georgesung/flux.1-dev-abliterated-merged/resolve/main/ae_ablit_v2.safetensors"
 )
 
 # Download vae files
@@ -73,13 +73,13 @@ done
 
 # List of URLs to download for clip
 clip_urls=(
-  #"https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
-  # "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
-  #"https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors"
-  #"https://huggingface.co/QuanSun/EVA-CLIP/resolve/main/EVA02_CLIP_L_336_psz14_s6B.pt"
+  "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
+   "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
+  "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors"
+  "https://huggingface.co/QuanSun/EVA-CLIP/resolve/main/EVA02_CLIP_L_336_psz14_s6B.pt"
   # Abliterated v2
-  "https://huggingface.co/georgesung/flux.1-dev-abliterated-merged/resolve/main/t5_xxl_ablit_v2.safetensors"
-  "https://huggingface.co/georgesung/flux.1-dev-abliterated-merged/resolve/main/clip_l_ablit_v2.safetensors"
+  #"https://huggingface.co/georgesung/flux.1-dev-abliterated-merged/resolve/main/t5_xxl_ablit_v2.safetensors"
+  #"https://huggingface.co/georgesung/flux.1-dev-abliterated-merged/resolve/main/clip_l_ablit_v2.safetensors"
 )
 
 # Download clip files
